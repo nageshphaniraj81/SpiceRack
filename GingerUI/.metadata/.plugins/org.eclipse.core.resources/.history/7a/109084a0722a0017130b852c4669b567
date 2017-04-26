@@ -1,0 +1,7 @@
+com\spicerack\gingerui\AppTest.class
+com\spicerack\pageObjectClasses\SampleExpediaSearchPage.class
+com\spicerack\utilities\ScreenshotsHelper.class
+com\spicerack\utilities\SeleniumListeners.class
+com\spicerack\utilities\SyncronizationHelper.class
+com\spicerack\utilities\GenericHelper.class
+com\spicerack\testcases\SampleExpediaTest.class
