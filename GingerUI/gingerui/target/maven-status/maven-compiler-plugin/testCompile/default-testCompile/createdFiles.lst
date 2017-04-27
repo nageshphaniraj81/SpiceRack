@@ -1,2 +1,3 @@
 com\spicerack\pageObjectClasses\SampleExpediaSearchPage.class
+com\spicerack\testcases\LoginTest.class
 com\spicerack\testcases\SampleExpediaTest.class

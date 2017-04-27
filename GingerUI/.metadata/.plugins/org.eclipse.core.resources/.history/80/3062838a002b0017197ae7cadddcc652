@@ -1,0 +1,5 @@
+package com.spicerack.testcases;
+
+public class LoginTest {
+
+}

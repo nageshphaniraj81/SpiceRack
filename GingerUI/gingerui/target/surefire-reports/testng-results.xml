@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="com.spicerack.testcases.SampleExpediaTest" duration-ms="36466" started-at="2017-04-26T19:24:24Z" finished-at="2017-04-26T19:25:00Z">
+  <suite name="Command line suite" duration-ms="71643" started-at="2017-04-27T04:03:30Z" finished-at="2017-04-27T04:04:42Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="36466" started-at="2017-04-26T19:24:24Z" finished-at="2017-04-26T19:25:00Z">
+    <test name="Command line test" duration-ms="71643" started-at="2017-04-27T04:03:30Z" finished-at="2017-04-27T04:04:42Z">
       <class name="com.spicerack.testcases.SampleExpediaTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.spicerack.testcases.SampleExpediaTest@3cbbc1e0]" name="beforeMethod" is-config="true" duration-ms="23373" started-at="2017-04-27T00:54:24Z" finished-at="2017-04-27T00:54:47Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.spicerack.testcases.SampleExpediaTest@52af6cff]" name="beforeMethod" is-config="true" duration-ms="55599" started-at="2017-04-27T09:33:30Z" finished-at="2017-04-27T09:34:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="fillBasicInfo()[pri:0, instance:com.spicerack.testcases.SampleExpediaTest@3cbbc1e0]" name="fillBasicInfo" duration-ms="6760" started-at="2017-04-27T00:54:47Z" finished-at="2017-04-27T00:54:54Z">
+        <test-method status="PASS" signature="fillBasicInfo()[pri:0, instance:com.spicerack.testcases.SampleExpediaTest@52af6cff]" name="fillBasicInfo" duration-ms="11055" started-at="2017-04-27T09:34:26Z" finished-at="2017-04-27T09:34:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillBasicInfo -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.spicerack.testcases.SampleExpediaTest@3cbbc1e0]" name="afterMethod" is-config="true" duration-ms="6305" started-at="2017-04-27T00:54:54Z" finished-at="2017-04-27T00:55:00Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.spicerack.testcases.SampleExpediaTest@52af6cff]" name="afterMethod" is-config="true" duration-ms="4938" started-at="2017-04-27T09:34:37Z" finished-at="2017-04-27T09:34:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- com.spicerack.testcases.SampleExpediaTest -->
     </test> <!-- Command line test -->
-  </suite> <!-- com.spicerack.testcases.SampleExpediaTest -->
+  </suite> <!-- Command line suite -->
 </testng-results>

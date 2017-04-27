@@ -1,7 +1,9 @@
 package com.spicerack.testcases;
 
 import org.testng.annotations.Test;
-import com.spicerack.pageObjectClasses.SampleExpediaSearchPage;
+
+import com.spicerack.pages.SampleExpediaSearchPage;
+
 import org.testng.annotations.BeforeMethod;
 import java.util.concurrent.TimeUnit;
 import org.apache.log4j.Logger;
