@@ -6,9 +6,9 @@
       <class name="com.spicerack.testcases.SampleShoppingTest">
         <methods>
           <include name="testSignIn"/>
-          <include name="testWomenPage"/>
+          <include name="tearDown"/>
           <include name="initialize"/>
-          <include name="testDressesPage"/>
+          <include name="cleanUp"/>
           <include name="testTShirtPage"/>
         </methods>
       </class> <!-- com.spicerack.testcases.SampleShoppingTest -->

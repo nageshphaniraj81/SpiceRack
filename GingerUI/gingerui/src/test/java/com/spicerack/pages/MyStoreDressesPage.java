@@ -5,6 +5,7 @@ package com.spicerack.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
@@ -27,19 +28,23 @@ public class MyStoreDressesPage extends BasePage{
 	@FindBy(how = How.XPATH, using = ".//*[@id='block_top_menu']/ul/li/*[contains(@title,'Dresses') and contains(@class,'sf-with-ul')]")
 	public WebElement tabDresses;
 	
-	public void switchToDressesTab(){
+	public void switchToDressesTab() {
+		
+	
 		if(tabDresses.isDisplayed()){
 			tabDresses.click();
 		}else{
 			System.out.println("Women Tab not displayed");
 		}
-		
+	
 	}
 	
 	public void waitTillPageLoad(){
+		
 		SyncronizationHelper sync = new SyncronizationHelper(DriverContext.Driver);
 		sync.waitForElement(By.xpath(".//div[@id='center_column']/h1/span[contains(@class,'cat-name') and contains(text(),'Dresses')]"), 10);
-	}
+		
+		}
 
 	public boolean isTitleDisplayed() {
 

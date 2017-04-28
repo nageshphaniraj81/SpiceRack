@@ -1,0 +1,154 @@
+/**
+ * 
+ */
+package com.spicerack.testcases;
+
+
+import java.io.IOException;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.testng.Assert;
+import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
+import com.spicerack.framework.base.BrowserType;
+import com.spicerack.framework.base.DriverContext;
+import com.spicerack.framework.base.InitilizeFramework;
+import com.spicerack.framework.utilities.ExcelUtil;
+import com.spicerack.framework.utilities.LogUtil;
+import com.spicerack.framework.utilities.ScreenshotsHelper;
+import com.spicerack.pages.MyStoreDressesPage;
+import com.spicerack.pages.MyStoreHomePage;
+import com.spicerack.pages.MyStoreLoginPage;
+import com.spicerack.pages.MyStoreTShirtPage;
+import com.spicerack.pages.MyStoreWomenPage;
+
+import jxl.read.biff.BiffException;
+
+/**
+ * @author Nagesh Phaniraj
+ *
+ */
+public class SampleShoppingTest extends InitilizeFramework {
+
+	// URL of the page to be navigated
+	private String baseURL = "http://automationpractice.com";
+	private String dataSheet = "D:\\SpiceRack\\GingerUI\\gingerui\\src\\test\\java\\com\\spicerack\\Resources\\TestData.xls";
+    static final Logger logger = LogManager.getLogger(SampleShoppingTest.class);
+    ExtentReports report;
+    ExtentTest test;
+	
+	@BeforeTest
+	public void initialize() {
+		
+		//Initialize extent report
+		report = new ExtentReports("C://Temp//ExtentReport.html");
+		test = report.startTest("Sample Shopping Test");
+		
+		
+		// Logging code using logUtil (Framework) & Log4j
+		LogUtil logutil = new LogUtil();
+		logutil.CreateLogFile();
+		logutil.Write("Framework Initilize");
+		logger.trace("Entering initialization.");
+		
+		// Browser Initialization 
+		InitalizeBrowser(BrowserType.Firefox);
+	    DriverContext.Browser.goToURL(baseURL);
+	    test.log(LogStatus.INFO, "Browser Started");
+	    
+		// Data driven testing
+	    try {
+			@SuppressWarnings("unused")
+			ExcelUtil util = new ExcelUtil(dataSheet);
+		} catch (BiffException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	    
+	 // Logging code using  Log4j
+	    logger.trace("Exiting initialization.");
+	    test.log(LogStatus.INFO, "Initialization Complete");
+	} 
+
+	@Test
+	public void testSignIn() throws InterruptedException {
+
+		
+		CurrentPage = GetInstance(MyStoreHomePage.class);
+		CurrentPage = CurrentPage.As(MyStoreHomePage.class).clickSignIn();
+		test.log(LogStatus.INFO, "Clicked on Signup link");
+		Thread.sleep(4000);
+		
+		// Reading data from Excel sheet
+		CurrentPage.As(MyStoreLoginPage.class).login(ExcelUtil.ReadCell("Username",1),ExcelUtil.ReadCell("Password", 1));
+		Thread.sleep(4000);
+		
+		test.log(LogStatus.PASS, "Logged into the website");
+	}
+
+	@Test(dependsOnMethods = "testSignIn")
+	public void testWomenPage() {
+
+		CurrentPage = GetInstance(MyStoreWomenPage.class);
+		CurrentPage.As(MyStoreWomenPage.class).switchToWomenTab();
+		CurrentPage.As(MyStoreWomenPage.class).waitTillPageLoad();
+		Assert.assertEquals(CurrentPage.As(MyStoreWomenPage.class).isTitleDisplayed(), true);
+		test.log(LogStatus.PASS, "Women Page is displayed");
+	}
+
+	@Test(dependsOnMethods = "testSignIn")
+	public void testDressesPage() {
+
+		CurrentPage = GetInstance(MyStoreDressesPage.class);
+		CurrentPage.As(MyStoreDressesPage.class).switchToDressesTab();
+		CurrentPage.As(MyStoreDressesPage.class).waitTillPageLoad();
+		Assert.assertEquals(CurrentPage.As(MyStoreDressesPage.class).isTitleDisplayed(), true);
+		test.log(LogStatus.PASS, "Dresses Page is displayed");
+
+	}
+
+	@Test(dependsOnMethods = "testSignIn")
+	public void testTShirtPage() {
+
+		CurrentPage = GetInstance(MyStoreTShirtPage.class);
+		CurrentPage.As(MyStoreTShirtPage.class).switchToTShirtsTab();
+		CurrentPage.As(MyStoreTShirtPage.class).waitTillPageLoad();
+		Assert.assertEquals(CurrentPage.As(MyStoreTShirtPage.class).isTitleDisplayed(), true);
+		test.log(LogStatus.PASS, "TShirts page is displayed");
+
+	}
+	
+	@AfterMethod
+	public void tearDown(ITestResult testResult) throws IOException {
+		if (testResult.getStatus() == ITestResult.FAILURE) {
+		String path = ScreenshotsHelper.takeScreenshot(DriverContext.Driver, testResult.getName());
+		String imagePath = test.addScreenCapture(path);
+		test.log(LogStatus.FAIL, "TShirts Test Failed",imagePath);
+		}
+		DriverContext.Driver.quit();
+		report.endTest(test);
+		report.flush();
+	}
+
+	@AfterTest
+	public void cleanUp() throws InterruptedException {
+
+		CurrentPage = GetInstance(MyStoreHomePage.class);
+		CurrentPage = CurrentPage.As(MyStoreHomePage.class).clickSignOff();
+		Thread.sleep(4000);
+		DriverContext.Driver.quit();
+		Thread.sleep(4000);	
+	}
+
+}

@@ -4,6 +4,7 @@
 package com.spicerack.pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
@@ -28,18 +29,20 @@ public class MyStoreWomenPage extends BasePage {
 	public WebElement tabWomen;
 	
 	public void switchToWomenTab(){
+	
 		if(tabWomen.isDisplayed()){
 		tabWomen.click();
 		}else{
 			System.out.println("Women Tab not displayed");
 		}
-		
+	
 	}
 	
 	public void waitTillPageLoad(){
+	
 		SyncronizationHelper sync = new SyncronizationHelper(DriverContext.Driver);
 		sync.waitForElement(By.xpath(".//div[@id='center_column']/h1/span[contains(@class,'cat-name') and contains(text(),'Women')]"), 10);
-	}
+		}
 
 	public boolean isTitleDisplayed() {
 

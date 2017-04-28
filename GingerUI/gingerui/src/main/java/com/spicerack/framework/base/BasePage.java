@@ -11,6 +11,7 @@ public class BasePage extends Base {
 		PageFactory.initElements(DriverContext.Driver, this);
 	}
 
+	@SuppressWarnings("unchecked")
 	public <TPage extends BasePage> TPage As(Class<TPage> pageInstance) {
 		try {
 			return (TPage) this;
