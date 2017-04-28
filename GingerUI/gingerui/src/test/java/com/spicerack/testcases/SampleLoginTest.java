@@ -23,8 +23,7 @@ public class SampleLoginTest {
 
 	@Test
 	public void login() {
-
-		SampleLoginPage login = new SampleLoginPage(driver);
+		SampleLoginPage login = new SampleLoginPage();
 		login.login("admin", "admin");
 
 	}

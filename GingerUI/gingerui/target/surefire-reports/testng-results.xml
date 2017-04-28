@@ -1,25 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="71643" started-at="2017-04-27T04:03:30Z" finished-at="2017-04-27T04:04:42Z">
+  <suite name="Command line suite" duration-ms="113265" started-at="2017-04-27T12:13:07Z" finished-at="2017-04-27T12:15:00Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="71643" started-at="2017-04-27T04:03:30Z" finished-at="2017-04-27T04:04:42Z">
+    <test name="Command line test" duration-ms="113265" started-at="2017-04-27T12:13:07Z" finished-at="2017-04-27T12:15:00Z">
       <class name="com.spicerack.testcases.SampleExpediaTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.spicerack.testcases.SampleExpediaTest@52af6cff]" name="beforeMethod" is-config="true" duration-ms="55599" started-at="2017-04-27T09:33:30Z" finished-at="2017-04-27T09:34:26Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.spicerack.testcases.SampleExpediaTest@69d9c55]" name="beforeMethod" is-config="true" duration-ms="76977" started-at="2017-04-27T17:43:20Z" finished-at="2017-04-27T17:44:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="fillBasicInfo()[pri:0, instance:com.spicerack.testcases.SampleExpediaTest@52af6cff]" name="fillBasicInfo" duration-ms="11055" started-at="2017-04-27T09:34:26Z" finished-at="2017-04-27T09:34:37Z">
+        <test-method status="PASS" signature="fillBasicInfo()[pri:0, instance:com.spicerack.testcases.SampleExpediaTest@69d9c55]" name="fillBasicInfo" duration-ms="9392" started-at="2017-04-27T17:44:37Z" finished-at="2017-04-27T17:44:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillBasicInfo -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.spicerack.testcases.SampleExpediaTest@52af6cff]" name="afterMethod" is-config="true" duration-ms="4938" started-at="2017-04-27T09:34:37Z" finished-at="2017-04-27T09:34:42Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.spicerack.testcases.SampleExpediaTest@69d9c55]" name="afterMethod" is-config="true" duration-ms="5186" started-at="2017-04-27T17:44:46Z" finished-at="2017-04-27T17:44:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- com.spicerack.testcases.SampleExpediaTest -->
+      <class name="com.spicerack.testcases.SampleShoppingTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.spicerack.testcases.SampleShoppingTest@7f560810]" name="initialize" is-config="true" duration-ms="13224" started-at="2017-04-27T17:43:07Z" finished-at="2017-04-27T17:43:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testDressesPage()[pri:0, instance:com.spicerack.testcases.SampleShoppingTest@7f560810]" name="testDressesPage" duration-ms="2988" started-at="2017-04-27T17:44:51Z" finished-at="2017-04-27T17:44:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDressesPage -->
+        <test-method status="PASS" signature="testTShirtPage()[pri:0, instance:com.spicerack.testcases.SampleShoppingTest@7f560810]" name="testTShirtPage" duration-ms="1852" started-at="2017-04-27T17:44:54Z" finished-at="2017-04-27T17:44:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTShirtPage -->
+        <test-method status="PASS" signature="testWomenPage()[pri:0, instance:com.spicerack.testcases.SampleShoppingTest@7f560810]" name="testWomenPage" duration-ms="2247" started-at="2017-04-27T17:44:56Z" finished-at="2017-04-27T17:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWomenPage -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.spicerack.testcases.SampleShoppingTest@7f560810]" name="cleanUp" is-config="true" duration-ms="1382" started-at="2017-04-27T17:44:59Z" finished-at="2017-04-27T17:45:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.spicerack.testcases.SampleShoppingTest -->
     </test> <!-- Command line test -->
   </suite> <!-- Command line suite -->
 </testng-results>

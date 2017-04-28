@@ -1,0 +1,35 @@
+package com.spicerack.framework.base;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+
+public class InitilizeFramework extends Base {
+
+	public void InitalizeBrowser(BrowserType browserType) {
+
+		switch (browserType) {
+		case Firefox: {
+			System.setProperty("webdriver.gecko.driver", "C:\\Selenium\\Seleniumite\\lib\\geckodriver.exe");
+			DriverContext.Driver = new FirefoxDriver();
+			break;
+		}
+		case Chrome: {
+			System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\Seleniumite\\lib\\chromedriver.exe");
+			DriverContext.Driver = new ChromeDriver();
+			break;
+		}
+		case IE: {
+			System.setProperty("webdriver.ie.driver", "C:\\Selenium\\Seleniumite\\lib\\IEDriverServer.exe");
+			DriverContext.Driver = new InternetExplorerDriver();
+			break;
+		}
+		default: {
+		   System.out.println("Invalid browser type");
+           break;
+		}
+		}
+
+	}
+
+}

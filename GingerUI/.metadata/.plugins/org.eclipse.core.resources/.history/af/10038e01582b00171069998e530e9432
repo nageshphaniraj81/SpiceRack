@@ -1,0 +1,18 @@
+/**
+ * 
+ */
+package com.spicerack.pages;
+
+import com.spicerack.framework.base.BasePage;
+
+/**
+ * @author Nagesh Phaniraj
+ *
+ */
+public class MyStoreHomePage extends BasePage {
+	
+	public MyStoreHomePage(){
+		super();
+	}
+
+}

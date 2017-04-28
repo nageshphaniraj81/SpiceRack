@@ -1,15 +1,23 @@
 package com.spicerack.framework.base;
 
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
 /**
  * Created by Nagesh Phaniraj
  */
-public class BasePage {
+public class BasePage extends Base {
 
-	public BasePage(WebDriver driver) {
-	 PageFactory.initElements(driver, this);
+	public BasePage() {
+		PageFactory.initElements(DriverContext.Driver, this);
+	}
+
+	public <TPage extends BasePage> TPage As(Class<TPage> pageInstance) {
+		try {
+			return (TPage) this;
+		} catch (Exception e) {
+			e.getStackTrace();
+		}
+		return null;
 	}
 
 }

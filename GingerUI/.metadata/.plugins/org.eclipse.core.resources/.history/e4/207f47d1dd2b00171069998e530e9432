@@ -1,0 +1,17 @@
+package com.spicerack.framework.base;
+
+public class Browser extends Base {
+
+	public void goToURL(String url) {
+		DriverContext.Driver.get(url);
+	}
+
+	public void maximize() {
+		DriverContext.Driver.manage().window().maximize();
+	}
+
+	public void fullScreen() {
+		DriverContext.Driver.manage().window().fullscreen();
+	}
+
+}

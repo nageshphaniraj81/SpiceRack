@@ -594,3 +594,84 @@
 2017-04-27 10:42:27,081 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\main\resources
 2017-04-27 10:42:27,082 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-04-27 10:42:27,082 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\test\resources
+2017-04-27 15:56:00,391 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 15:56:00,395 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\main\resources
+2017-04-27 15:56:00,397 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 15:56:00,397 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\test\resources
+2017-04-27 15:56:12,730 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 15:56:12,730 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\main\resources
+2017-04-27 15:56:12,732 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 15:56:12,732 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\test\resources
+2017-04-27 16:04:18,827 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 16:04:18,828 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\main\resources
+2017-04-27 16:04:18,830 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 16:04:18,831 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\test\resources
+2017-04-27 16:04:25,684 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
+2017-04-27 16:20:21,570 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 16:20:21,571 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\main\resources
+2017-04-27 16:20:21,572 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 16:20:21,572 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\test\resources
+2017-04-27 16:33:04,249 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 16:33:04,249 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\main\resources
+2017-04-27 16:33:04,251 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 16:33:04,251 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\test\resources
+2017-04-27 16:34:16,761 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 16:34:16,762 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\main\resources
+2017-04-27 16:34:16,764 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 16:34:16,764 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\test\resources
+2017-04-27 16:45:11,209 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 16:45:11,209 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\main\resources
+2017-04-27 16:45:11,211 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 16:45:11,211 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\test\resources
+2017-04-27 16:45:12,243 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 16:45:12,244 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\main\resources
+2017-04-27 16:45:12,252 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 16:45:12,252 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\test\resources
+2017-04-27 16:46:39,688 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 16:46:39,689 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\main\resources
+2017-04-27 16:46:39,690 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 16:46:39,690 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\test\resources
+2017-04-27 16:48:53,455 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 16:48:53,455 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\main\resources
+2017-04-27 16:48:53,456 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 16:48:53,456 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\test\resources
+2017-04-27 17:15:31,357 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 17:15:31,357 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\main\resources
+2017-04-27 17:15:31,358 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 17:15:31,359 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\test\resources
+2017-04-27 17:15:57,797 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 17:15:57,797 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\main\resources
+2017-04-27 17:15:57,799 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 17:15:57,799 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\test\resources
+2017-04-27 17:16:27,651 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 17:16:27,651 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\main\resources
+2017-04-27 17:16:27,653 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 17:16:27,653 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\test\resources
+2017-04-27 17:23:17,746 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 17:23:17,746 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\main\resources
+2017-04-27 17:23:17,748 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 17:23:17,748 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\test\resources
+2017-04-27 17:24:11,327 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 17:24:11,327 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\main\resources
+2017-04-27 17:24:11,329 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 17:24:11,329 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\test\resources
+2017-04-27 17:28:20,269 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 17:28:20,269 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\main\resources
+2017-04-27 17:28:20,270 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 17:28:20,271 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\test\resources
+2017-04-27 17:34:16,808 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 17:34:16,808 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\main\resources
+2017-04-27 17:34:16,810 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 17:34:16,810 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\test\resources
+2017-04-27 17:38:34,283 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 17:38:34,283 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\main\resources
+2017-04-27 17:38:34,285 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 17:38:34,286 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\test\resources
+2017-04-27 17:38:45,381 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 17:38:45,381 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\main\resources
+2017-04-27 17:38:45,383 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 17:38:45,384 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\test\resources
+2017-04-27 17:41:34,310 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 17:41:34,311 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\main\resources
+2017-04-27 17:41:34,312 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-04-27 17:41:34,313 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\SpiceRack\GingerUI\gingerui\src\test\resources

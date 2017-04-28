@@ -1,3 +1,8 @@
-com\spicerack\pageObjectClasses\SampleExpediaSearchPage.class
-com\spicerack\testcases\LoginTest.class
+com\spicerack\testcases\SampleShoppingTest.class
+com\spicerack\pages\SampleExpediaSearchPage.class
+com\spicerack\pages\MyStoreWomenPage.class
+com\spicerack\pages\MyStoreDressesPage.class
+com\spicerack\pages\MyStoreTShirtPage.class
+com\spicerack\pages\SampleLoginPage.class
 com\spicerack\testcases\SampleExpediaTest.class
+com\spicerack\testcases\SampleLoginTest.class

@@ -1,0 +1,38 @@
+/**
+ * 
+ */
+package com.spicerack.testcases;
+
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+/**
+ * @author Nagesh Phaniraj
+ *
+ */
+public class SampleShoppingTest {
+	
+	// Global variable declaration
+		private WebDriver driver;
+		private String baseURL = "http://automationpractice.com";
+
+		@Before
+		public void initialize() {
+			System.setProperty("webdriver.gecko.driver", "C:\\Selenium\\Seleniumite\\lib\\geckodriver.exe");
+			driver = new FirefoxDriver();
+			driver.navigate().to(baseURL);
+		}
+
+		@Test
+		public void switchToWomen() {
+         WebElement womenTab = driver.findElement(By.xpath(".//*[@id='block_top_menu']/ul/li//*[contains(@title,'Women') and contains(@class,'sf-with-ul')]"));
+         womenTab.click();
+		}
+	
+
+}

@@ -3,14 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.spicerack.testcases.SampleExpediaTest">
+      <class name="com.spicerack.testcases.SampleShoppingTest">
         <methods>
-          <include name="beforeMethod"/>
-          <include name="fillBasicInfo"/>
-          <include name="fillAdvancedInfo"/>
-          <include name="afterMethod"/>
+          <include name="testSignIn"/>
+          <include name="testWomenPage"/>
+          <include name="initialize"/>
+          <include name="testDressesPage"/>
+          <include name="testTShirtPage"/>
         </methods>
-      </class> <!-- com.spicerack.testcases.SampleExpediaTest -->
+      </class> <!-- com.spicerack.testcases.SampleShoppingTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

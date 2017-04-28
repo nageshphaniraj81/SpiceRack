@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28243" started-at="2017-04-26T11:36:39Z" finished-at="2017-04-26T11:37:07Z">
+  <suite name="Default suite" duration-ms="39942" started-at="2017-04-28T07:00:53Z" finished-at="2017-04-28T07:01:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28243" started-at="2017-04-26T11:36:39Z" finished-at="2017-04-26T11:37:07Z">
-      <class name="com.spicerack.testcases.SampleExpediaTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.spicerack.testcases.SampleExpediaTest@754ba872]" name="beforeMethod" is-config="true" duration-ms="16604" started-at="2017-04-26T17:06:39Z" finished-at="2017-04-26T17:06:56Z">
+    <test name="Default test" duration-ms="39942" started-at="2017-04-28T07:00:53Z" finished-at="2017-04-28T07:01:33Z">
+      <class name="com.spicerack.testcases.SampleShoppingTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.spicerack.testcases.SampleShoppingTest@57fffcd7]" name="initialize" is-config="true" duration-ms="12858" started-at="2017-04-28T12:30:53Z" finished-at="2017-04-28T12:31:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="fillBasicInfo()[pri:0, instance:com.spicerack.testcases.SampleExpediaTest@754ba872]" name="fillBasicInfo" duration-ms="6909" started-at="2017-04-26T17:06:56Z" finished-at="2017-04-26T17:07:02Z">
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testSignIn()[pri:0, instance:com.spicerack.testcases.SampleShoppingTest@57fffcd7]" name="testSignIn" duration-ms="9288" started-at="2017-04-28T12:31:06Z" finished-at="2017-04-28T12:31:15Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fillBasicInfo -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.spicerack.testcases.SampleExpediaTest@754ba872]" name="afterMethod" is-config="true" duration-ms="4705" started-at="2017-04-26T17:07:02Z" finished-at="2017-04-26T17:07:07Z">
+        </test-method> <!-- testSignIn -->
+        <test-method status="PASS" signature="testDressesPage()[pri:0, instance:com.spicerack.testcases.SampleShoppingTest@57fffcd7]" name="testDressesPage" duration-ms="3563" started-at="2017-04-28T12:31:15Z" depends-on-methods="com.spicerack.testcases.SampleShoppingTest.testSignIn" finished-at="2017-04-28T12:31:18Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- com.spicerack.testcases.SampleExpediaTest -->
+        </test-method> <!-- testDressesPage -->
+        <test-method status="PASS" signature="testTShirtPage()[pri:0, instance:com.spicerack.testcases.SampleShoppingTest@57fffcd7]" name="testTShirtPage" duration-ms="1924" started-at="2017-04-28T12:31:18Z" depends-on-methods="com.spicerack.testcases.SampleShoppingTest.testSignIn" finished-at="2017-04-28T12:31:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTShirtPage -->
+        <test-method status="PASS" signature="testWomenPage()[pri:0, instance:com.spicerack.testcases.SampleShoppingTest@57fffcd7]" name="testWomenPage" duration-ms="2522" started-at="2017-04-28T12:31:20Z" depends-on-methods="com.spicerack.testcases.SampleShoppingTest.testSignIn" finished-at="2017-04-28T12:31:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWomenPage -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.spicerack.testcases.SampleShoppingTest@57fffcd7]" name="cleanUp" is-config="true" duration-ms="9753" started-at="2017-04-28T12:31:23Z" finished-at="2017-04-28T12:31:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.spicerack.testcases.SampleShoppingTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

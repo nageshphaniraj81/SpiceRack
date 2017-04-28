@@ -1,0 +1,68 @@
+/**
+ * 
+ */
+package com.spicerack.testcases;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+import com.spicerack.framework.base.Base;
+import com.spicerack.framework.base.DriverContext;
+import com.spicerack.pages.MyStoreDressesPage;
+import com.spicerack.pages.MyStoreTShirtPage;
+import com.spicerack.pages.MyStoreWomenPage;
+
+/**
+ * @author Nagesh Phaniraj
+ *
+ */
+public class SampleShoppingTest extends Base {
+
+	// Global variable declaration
+	//private WebDriver driver;
+	private String baseURL = "http://automationpractice.com";
+	
+	
+
+	@BeforeTest
+	public void initialize() {
+		System.setProperty("webdriver.gecko.driver", "C:\\Selenium\\Seleniumite\\lib\\geckodriver.exe");
+		DriverContext.Driver = new FirefoxDriver();
+		DriverContext.Driver .get(baseURL);
+	}
+
+	@Test
+	public void testWomenPage() throws InterruptedException {
+
+		MyStoreWomenPage women = new MyStoreWomenPage();
+		women.switchToWomenTab();
+		women.waitTillPageLoad();
+		Assert.assertEquals(women.isTitleDisplayed(), true);
+	}
+
+	@Test
+	public void testDressesPage() throws InterruptedException {
+
+		MyStoreDressesPage dresses = new MyStoreDressesPage();
+		dresses.switchToDressesTab();
+		dresses.waitTillPageLoad();
+		Assert.assertEquals(dresses.isTitleDisplayed(), true);
+	}
+
+	@Test
+	public void testTShirtPage() throws InterruptedException {
+
+		MyStoreTShirtPage tshirts = new MyStoreTShirtPage();
+		tshirts.switchToTShirtsTab();
+		tshirts.waitTillPageLoad();
+		Assert.assertEquals(tshirts.isTitleDisplayed(), true);
+	}
+
+	@AfterTest
+	public void cleanUp() {
+		DriverContext.Driver.quit();
+	}
+
+}

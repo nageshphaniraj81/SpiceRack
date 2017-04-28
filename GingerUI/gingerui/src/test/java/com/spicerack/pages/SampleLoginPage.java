@@ -12,8 +12,8 @@ import com.spicerack.framework.base.BasePage;
  */
 public class SampleLoginPage extends BasePage{
 	
-	public SampleLoginPage(WebDriver driver) {
-		super(driver);
+	public SampleLoginPage() {
+		super();
 	}
 	
 	@FindBy(how = How.NAME, using = "UserName")
