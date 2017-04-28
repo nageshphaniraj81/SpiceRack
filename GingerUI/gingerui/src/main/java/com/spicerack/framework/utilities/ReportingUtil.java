@@ -12,17 +12,22 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 import com.spicerack.framework.base.DriverContext;
+import com.spicerack.framework.config.ConfigReader;
+import com.spicerack.framework.config.Settings;
 
 public class ReportingUtil {
 
 	private static ExtentReports report;
 	private static ExtentTest test;
-	private String reportPath = "C://Temp//ExtentReport.html";
 
-	public ReportingUtil(String testName) {
+	public ReportingUtil(String testName) throws IOException {
 		
-		report = new ExtentReports(reportPath);
+		// Initializing configuration Settings
+		ConfigReader.populateSetting();
+		
+		report = new ExtentReports(Settings.ExtentReportPath);
 		test = report.startTest(testName);
+
 	}
 
 	public void logInfo(String message) {
@@ -62,7 +67,7 @@ public class ReportingUtil {
 
 	private static String takeScreenshot(WebDriver driver, String fileName) throws IOException {
 		fileName = fileName+getRandomString(5)+ ".png";
-		String directory = "C:\\Temp\\";
+		String directory = Settings.ScreenshotFolder;
 		File sourceFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(sourceFile, new File(directory + fileName));
 		String destination = directory + fileName;

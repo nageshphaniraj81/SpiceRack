@@ -25,6 +25,8 @@ import com.spicerack.pages.MyStoreHomePage;
 import com.spicerack.pages.MyStoreLoginPage;
 import com.spicerack.pages.MyStoreTShirtPage;
 import com.spicerack.pages.MyStoreWomenPage;
+import com.spicerack.framework.config.ConfigReader;
+import com.spicerack.framework.config.Settings;
 
 import jxl.read.biff.BiffException;
 
@@ -35,14 +37,14 @@ import jxl.read.biff.BiffException;
 public class SampleShoppingTest extends InitilizeFramework {
 
 	// URL of the page to be navigated
-	private String baseURL = "http://automationpractice.com";
-	private String dataSheet = "D:\\SpiceRack\\GingerUI\\gingerui\\src\\test\\java\\com\\spicerack\\Resources\\TestData.xls";
     static final Logger logger = LogManager.getLogger(SampleShoppingTest.class);
     private ReportingUtil report;
 
-	
 	@BeforeTest
-	public void initialize() {
+	public void initialize() throws IOException {
+		
+		// Initializing configuration Settings
+		ConfigReader.populateSetting();
 
 		// Logging code using logUtil (Framework) & Log4j
 		LogUtil logutil = new LogUtil();
@@ -51,8 +53,8 @@ public class SampleShoppingTest extends InitilizeFramework {
 		logger.trace("Entering initialization.");
 		
 		// Browser Initialization 
-		InitalizeBrowser(BrowserType.Firefox);
-	    DriverContext.Browser.goToURL(baseURL);
+		InitalizeBrowser(Settings.BrowserType);
+	    DriverContext.Browser.goToURL(Settings.BaseURL);
 
 	    // Initialize reporting
 	    report = new ReportingUtil("Sample Shopping Test Optimized");
@@ -61,7 +63,7 @@ public class SampleShoppingTest extends InitilizeFramework {
 		// Data driven testing
 	    try {
 			@SuppressWarnings("unused")
-			ExcelUtil util = new ExcelUtil(dataSheet);
+			ExcelUtil util = new ExcelUtil(Settings.ExcelDataSheetPath);
 		} catch (BiffException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -121,8 +123,8 @@ public class SampleShoppingTest extends InitilizeFramework {
 		CurrentPage = GetInstance(MyStoreTShirtPage.class);
 		CurrentPage.As(MyStoreTShirtPage.class).switchToTShirtsTab();
 		CurrentPage.As(MyStoreTShirtPage.class).waitTillPageLoad();
-		Assert.assertEquals(CurrentPage.As(MyStoreTShirtPage.class).isTitleDisplayed(), false);
-		report.logFail("TShirts page is displayed");
+		Assert.assertEquals(CurrentPage.As(MyStoreTShirtPage.class).isTitleDisplayed(), true);
+		report.logPass("TShirts page is displayed");
 
 	}
 	

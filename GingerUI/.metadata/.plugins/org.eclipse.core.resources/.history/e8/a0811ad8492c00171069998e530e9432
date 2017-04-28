@@ -1,0 +1,7 @@
+DatabaseURL=jdbc:mysql://localhost:3306/nagesh
+DatabaseUsername=root
+DatabasePassword=root
+DatabaseDriver=com.mysql.jdbc.Driver
+LogFolder=C:/Temp/GingerLogs
+ExtentReportPath=C://Temp//ExtentReport.html
+ScreenshotFolder=C:\\Temp\\

@@ -8,29 +8,15 @@ import java.sql.Statement;
 
 public class DataBaseUtil {
 	
-	// Connection object
 	static Connection conn = null;
-	
-	// Statement object
 	private static Statement stmt;
-	
-	// Result Set
 	private static ResultSet results = null;
-	
-	// Constant for Database URL (hardcoded)
-	public static String DB_URL = "jdbc:mysql://localhost:3306/nagesh"; 
-
-	// Constant for Database Username (hardcoded)
+	public static String DB_URL = "jdbc:mysql://localhost:3306/nagesh";
 	public static String DB_USER = "root";
-	
-	// Constant for Database Password (hardcoded)
 	public static String DB_PASSWORD = "root";
+	public static String driver ="com.mysql.jdbc.Driver";
 	
-	// Driver (hardcoded)
-	// "oracle.jdbc.driver.OracleDriver"
-	public static String driver = "com.mysql.jdbc.Driver"; 
-	
-	
+
 	public static void openConnection(){
 	    
 		try {
