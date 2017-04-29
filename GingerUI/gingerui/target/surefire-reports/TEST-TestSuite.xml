@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="TestSuite" time="16.475" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="TestSuite" time="22.032" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_65\jre\bin"/>
@@ -29,7 +29,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\DevTools\apache-maven-3.3.9\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_65\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Microsoft MPI\Bin\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_65;C:\Program Files (x86)\Notepad++;C:\DevTools\apache-maven-3.3.9\bin;C:\DevTools\apache-tomcat-8.0.35\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\DevTools\axis2-1.6.2\axis2-1.6.2\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\dotnet\;C:\Users\Nagesh Phaniraj\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Nagesh Phaniraj\AppData\Local\Programs\Python\Python36-32\;C:\Users\Nagesh Phaniraj\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_65\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Microsoft MPI\Bin\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_65;C:\Program Files (x86)\Notepad++;C:\DevTools\apache-maven-3.3.9\bin;C:\DevTools\apache-tomcat-8.0.35\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\DevTools\axis2-1.6.2\axis2-1.6.2\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\dotnet\;C:\Users\Nagesh Phaniraj\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Nagesh Phaniraj\AppData\Local\Programs\Python\Python36-32\;C:\Users\Nagesh Phaniraj\AppData\Local\Microsoft\WindowsApps;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -63,8 +63,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.spicerack.testcases.SampleExpediaTest" name="fillBasicInfo" time="9.388"/>
-  <testcase classname="com.spicerack.testcases.SampleShoppingTest" name="testDressesPage" time="2.993"/>
-  <testcase classname="com.spicerack.testcases.SampleShoppingTest" name="testTShirtPage" time="1.847"/>
-  <testcase classname="com.spicerack.testcases.SampleShoppingTest" name="testWomenPage" time="2.247"/>
+  <testcase classname="com.spicerack.testcases.SampleShoppingTest" name="testSignIn" time="13.541"/>
+  <testcase classname="com.spicerack.testcases.SampleShoppingTest" name="testDressesPage" time="3.617"/>
+  <testcase classname="com.spicerack.testcases.SampleShoppingTest" name="testTShirtPage" time="2.135"/>
+  <testcase classname="com.spicerack.testcases.SampleShoppingTest" name="testWomenPage" time="2.739"/>
 </testsuite>

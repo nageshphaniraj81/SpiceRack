@@ -102,12 +102,12 @@
                     <div class="method-list-content passed suite-Command_line_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.spicerack.testcases.SampleExpediaTest" hash-for-method="fillBasicInfo">fillBasicInfo</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.spicerack.testcases.SampleShoppingTest" hash-for-method="testDressesPage">testDressesPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.spicerack.testcases.SampleShoppingTest" hash-for-method="testDressesPage">testDressesPage</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.spicerack.testcases.SampleShoppingTest" hash-for-method="testSignIn">testSignIn</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -135,21 +135,6 @@
           <div class="suite-Command_line_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.spicerack.testcases.SampleExpediaTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="fillBasicInfo">
-                  </a> <!-- fillBasicInfo -->
-                  <span class="method-name">fillBasicInfo</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-passed -->
-          <div class="suite-Command_line_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">com.spicerack.testcases.SampleShoppingTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -158,6 +143,13 @@
                   <a name="testDressesPage">
                   </a> <!-- testDressesPage -->
                   <span class="method-name">testDressesPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignIn">
+                  </a> <!-- testSignIn -->
+                  <span class="method-name">testSignIn</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -187,8 +179,7 @@
 &lt;suite verbose=&quot;0&quot; name=&quot;Command line suite&quot;&gt;
   &lt;test name=&quot;Command line test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.spicerack.testcases.SampleExpediaTest&quot;/&gt;
-      &lt;class name=&quot;com.spicerack.testcases.SampleLoginTest&quot;/&gt;
+      &lt;class name=&quot;com.spicerack.testcases.InitializeTestCase&quot;/&gt;
       &lt;class name=&quot;com.spicerack.testcases.SampleShoppingTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Command line test --&gt;
@@ -203,7 +194,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Command line test (3 classes)</span>
+                <span class="test-name">Command line test (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -231,26 +222,26 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'fillBasicInfo')
-data.setCell(0, 2, 'com.spicerack.testcases.SampleExpediaTest')
-data.setCell(0, 3, 9392);
+data.setCell(0, 1, 'testSignIn')
+data.setCell(0, 2, 'com.spicerack.testcases.SampleShoppingTest')
+data.setCell(0, 3, 13532);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testDressesPage')
 data.setCell(1, 2, 'com.spicerack.testcases.SampleShoppingTest')
-data.setCell(1, 3, 2988);
+data.setCell(1, 3, 3619);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testWomenPage')
 data.setCell(2, 2, 'com.spicerack.testcases.SampleShoppingTest')
-data.setCell(2, 3, 2247);
+data.setCell(2, 3, 2739);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'testTShirtPage')
 data.setCell(3, 2, 'com.spicerack.testcases.SampleShoppingTest')
-data.setCell(3, 3, 1852);
+data.setCell(3, 3, 2134);
 window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 16 seconds</span>
+              <span class="suite-total-time">Total running time: 22 seconds</span>
               <div id="times-div-Command_line_suite">
               </div> <!-- times-div-Command_line_suite -->
             </div> <!-- times-div -->
@@ -265,9 +256,16 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Command_line_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.spicerack.testcases.SampleShoppingTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialize</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Command_line_suite" class="panel">
@@ -276,45 +274,50 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.spicerack.testcases.SampleShoppingTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.spicerack.testcases.InitializeTestCase</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initialize</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">com.spicerack.testcases.SampleExpediaTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">13236 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">fillBasicInfo</span>
-                <span class="method-start">90213 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">99606 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
               <div class="chronological-class-name">com.spicerack.testcases.SampleShoppingTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">testDressesPage</span>
-                <span class="method-start">104792 ms</span>
+                <span class="method-name">testSignIn</span>
+                <span class="method-start">14963 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testSignIn status=SUCCESS method=SampleShoppingTest.testSignIn()[pri:0, instance:co...)</span>
+                <span class="method-start">28496 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testDressesPage</span>
+                <span class="method-start">28505 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testDressesPage status=SUCCESS method=SampleShoppingTest.testDressesPage()[pri:0, i...)</span>
+                <span class="method-start">32125 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testTShirtPage</span>
-                <span class="method-start">107781 ms</span>
+                <span class="method-start">32125 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testTShirtPage status=SUCCESS method=SampleShoppingTest.testTShirtPage()[pri:0, ins...)</span>
+                <span class="method-start">34259 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testWomenPage</span>
-                <span class="method-start">109634 ms</span>
+                <span class="method-start">34260 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">cleanUp</span>
-                <span class="method-start">111882 ms</span>
+                <span class="method-start">36999 ms</span>
               </div> <!-- configuration-test after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=testWomenPage status=SUCCESS method=SampleShoppingTest.testWomenPage()[pri:0, insta...)</span>
+                <span class="method-start">36999 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

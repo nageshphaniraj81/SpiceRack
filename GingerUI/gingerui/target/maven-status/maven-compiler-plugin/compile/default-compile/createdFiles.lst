@@ -3,6 +3,9 @@ com\spicerack\framework\utilities\DataBaseUtil.class
 com\spicerack\framework\utilities\SyncronizationHelper.class
 com\spicerack\framework\controls\api.class
 com\spicerack\framework\utilities\CucumberUtil.class
+com\spicerack\framework\config\ConfigReader.class
+com\spicerack\framework\base\InitilizeFramework$1.class
+com\spicerack\framework\base\BrowserType.class
 com\spicerack\framework\utilities\LogUtil.class
 com\spicerack\framework\utilities\ReportingUtil.class
 com\spicerack\framework\config\Settings.class
@@ -11,6 +14,5 @@ com\spicerack\framework\utilities\SeleniumListeners.class
 com\spicerack\framework\base\Base.class
 com\spicerack\framework\base\Browser.class
 com\spicerack\framework\base\InitilizeFramework.class
-com\spicerack\framework\utilities\ScreenshotsHelper.class
 com\spicerack\framework\base\DriverContext.class
 com\spicerack\framework\utilities\ExcelUtil.class

@@ -1,5 +1,7 @@
 package com.spicerack.framework.config;
+
 import com.spicerack.framework.base.BrowserType;
+import com.spicerack.framework.utilities.LogUtil;
 
 public class Settings {
 	
@@ -18,8 +20,10 @@ public class Settings {
 	public static String ExcelDataSheetPath;
 	// URL for AUT
 	public static String BaseURL;
-	// BrowserType
-	public static BrowserType BrowserType;
+    // Browser
+	public static BrowserType Browser;
+	// Log Utility
+	public static LogUtil Logs;
 	
 
 }

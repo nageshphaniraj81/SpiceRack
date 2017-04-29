@@ -1,8 +1,10 @@
 D:\SpiceRack\GingerUI\gingerui\src\test\java\com\spicerack\testcases\SampleShoppingTest.java
+D:\SpiceRack\GingerUI\gingerui\src\test\java\com\spicerack\pages\MyStoreHomePage.java
 D:\SpiceRack\GingerUI\gingerui\src\test\java\com\spicerack\pages\SampleExpediaSearchPage.java
-D:\SpiceRack\GingerUI\gingerui\src\test\java\com\spicerack\testcases\SampleLoginTest.java
+D:\SpiceRack\GingerUI\gingerui\src\test\java\com\spicerack\pages\MyStoreLoginPage.java
 D:\SpiceRack\GingerUI\gingerui\src\test\java\com\spicerack\pages\SampleLoginPage.java
-D:\SpiceRack\GingerUI\gingerui\src\test\java\com\spicerack\testcases\SampleExpediaTest.java
 D:\SpiceRack\GingerUI\gingerui\src\test\java\com\spicerack\pages\MyStoreWomenPage.java
+D:\SpiceRack\GingerUI\gingerui\src\test\java\com\spicerack\testcases\DatabaseTesting.java
+D:\SpiceRack\GingerUI\gingerui\src\test\java\com\spicerack\testcases\InitializeTestCase.java
 D:\SpiceRack\GingerUI\gingerui\src\test\java\com\spicerack\pages\MyStoreTShirtPage.java
 D:\SpiceRack\GingerUI\gingerui\src\test\java\com\spicerack\pages\MyStoreDressesPage.java

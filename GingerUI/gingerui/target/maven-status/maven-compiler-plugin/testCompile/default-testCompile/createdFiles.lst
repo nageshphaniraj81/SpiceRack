@@ -1,8 +1,10 @@
+com\spicerack\testcases\DatabaseTesting.class
 com\spicerack\testcases\SampleShoppingTest.class
 com\spicerack\pages\SampleExpediaSearchPage.class
+com\spicerack\pages\MyStoreLoginPage.class
 com\spicerack\pages\MyStoreWomenPage.class
 com\spicerack\pages\MyStoreDressesPage.class
+com\spicerack\pages\MyStoreHomePage.class
 com\spicerack\pages\MyStoreTShirtPage.class
 com\spicerack\pages\SampleLoginPage.class
-com\spicerack\testcases\SampleExpediaTest.class
-com\spicerack\testcases\SampleLoginTest.class
+com\spicerack\testcases\InitializeTestCase.class

@@ -3,9 +3,10 @@
  */
 package com.spicerack.framework.config;
 
+import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.Properties;
-
 import com.spicerack.framework.base.BrowserType;
 
 /**
@@ -14,24 +15,30 @@ import com.spicerack.framework.base.BrowserType;
  */
 public class ConfigReader {
 	
+	Properties prop = new Properties();
+	InputStream input = null;
+	
 	public static void populateSetting() throws IOException{
 		ConfigReader reader = new ConfigReader();
 		reader.ReadProperty();
 	}
 	
 	private void ReadProperty() throws IOException{
-		Properties p = new Properties();
-		p.load(getClass().getResourceAsStream("GlobalConfig.properties"));
-		Settings.DatabaseURL= p.getProperty("DatabaseURL");
-		Settings.DatabaseUsername= p.getProperty("DatabaseUsername");
-		Settings.DatabasePassword= p.getProperty("DatabasePassword");
-		Settings.DatabaseDriver= p.getProperty("DatabaseDriver");
-		Settings.LogFolder= p.getProperty("LogFolder");
-		Settings.ExtentReportPath= p.getProperty("ExtentReportPath");
-		Settings.ScreenshotFolder= p.getProperty("ScreenshotFolder");
-		Settings.ExcelDataSheetPath= p.getProperty("ExcelDataSheetPath");
-		Settings.BaseURL= p.getProperty("BaseURL");
-		Settings.BrowserType=BrowserType.valueOf(p.getProperty("BrowserType"));
+
+		// load a properties file
+		input = new FileInputStream("GlobalConfig.properties");
+		prop.load(input);
+		Settings.DatabaseURL= prop.getProperty("DatabaseURL");
+		Settings.DatabaseUsername= prop.getProperty("DatabaseUsername");
+		Settings.DatabasePassword= prop.getProperty("DatabasePassword");
+		Settings.DatabaseDriver= prop.getProperty("DatabaseDriver");
+		Settings.LogFolder= prop.getProperty("LogFolder");
+		Settings.ExtentReportPath= prop.getProperty("ExtentReportPath");
+		Settings.ScreenshotFolder= prop.getProperty("ScreenshotFolder");
+		Settings.ExcelDataSheetPath= prop.getProperty("ExcelDataSheetPath");
+		Settings.BaseURL= prop.getProperty("BaseURL");
+		Settings.Browser= BrowserType.valueOf(prop.getProperty("Browser"));
+
 	}
 
 }

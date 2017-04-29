@@ -6,9 +6,10 @@ D:\SpiceRack\GingerUI\gingerui\src\main\java\com\spicerack\framework\config\Sett
 D:\SpiceRack\GingerUI\gingerui\src\main\java\com\spicerack\framework\base\InitilizeFramework.java
 D:\SpiceRack\GingerUI\gingerui\src\main\java\com\spicerack\framework\utilities\DataBaseUtil.java
 D:\SpiceRack\GingerUI\gingerui\src\main\java\com\spicerack\framework\controls\api.java
+D:\SpiceRack\GingerUI\gingerui\src\main\java\com\spicerack\framework\config\ConfigReader.java
 D:\SpiceRack\GingerUI\gingerui\src\main\java\com\spicerack\framework\utilities\SeleniumListeners.java
+D:\SpiceRack\GingerUI\gingerui\src\main\java\com\spicerack\framework\base\BrowserType.java
 D:\SpiceRack\GingerUI\gingerui\src\main\java\com\spicerack\framework\utilities\LogUtil.java
-D:\SpiceRack\GingerUI\gingerui\src\main\java\com\spicerack\framework\utilities\ScreenshotsHelper.java
 D:\SpiceRack\GingerUI\gingerui\src\main\java\com\spicerack\framework\base\DriverContext.java
 D:\SpiceRack\GingerUI\gingerui\src\main\java\com\spicerack\framework\utilities\SyncronizationHelper.java
 D:\SpiceRack\GingerUI\gingerui\src\main\java\com\spicerack\framework\base\Browser.java

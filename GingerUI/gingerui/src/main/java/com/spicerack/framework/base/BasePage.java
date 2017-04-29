@@ -1,10 +1,6 @@
 package com.spicerack.framework.base;
 
-import java.io.IOException;
-
 import org.openqa.selenium.support.PageFactory;
-
-import com.spicerack.framework.config.ConfigReader;
 
 /**
  * Created by Nagesh Phaniraj
