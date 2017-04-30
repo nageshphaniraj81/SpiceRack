@@ -1,0 +1,7 @@
+Feature: TShirtFeature
+  This feature is responsible for testing all the scenarios of TShirt Page
+
+  Scenario: Check TShirt page is displayed correctly
+    And I ensure home page open
+    When I click on TShirt tab
+    Then TShirt page should be displayed

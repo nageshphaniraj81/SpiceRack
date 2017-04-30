@@ -1,0 +1,58 @@
+/**
+ * 
+ */
+package com.spicerack.stepdefinitions;
+
+import java.util.List;
+
+import org.junit.Assert;
+
+import com.spicerack.framework.base.Base;
+import com.spicerack.framework.utilities.ExcelUtil;
+import com.spicerack.pages.MyStoreHomePage;
+import com.spicerack.pages.MyStoreLoginPage;
+
+import cucumber.api.DataTable;
+import cucumber.api.PendingException;
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+/**
+ * @author Nagesh Phaniraj
+ *
+ */
+public class LoginSteps extends Base {
+	
+	@And("^I ensure home page open$")
+	public void i_ensure_home_page_open() throws Throwable  {
+		CurrentPage= GetInstance(MyStoreHomePage.class);
+		Assert.assertTrue("Login Page is not loaded",CurrentPage.As(MyStoreHomePage.class).isLogin());
+	}
+
+	@Then("^I click on login link$")
+	public void i_click_on_login_link() throws Throwable {
+		CurrentPage = GetInstance(MyStoreHomePage.class);
+		CurrentPage = CurrentPage.As(MyStoreHomePage.class).clickSignIn();
+	}
+
+	@When("^I enter username and password$")
+	public void i_enter_username_and_password(DataTable data) throws Throwable {
+		List<List<String>> table = data.raw();
+		CurrentPage = CurrentPage.As(MyStoreLoginPage.class).login(table.get(1).get(0).toString(), table.get(1).get(1).toString());
+}
+
+	@Then("^I click on Login button$")
+	public void i_click_on_Login_button() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Then("^I should see user name in on top of the page$")
+	public void i_should_see_user_name_in_on_top_of_the_page() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+}

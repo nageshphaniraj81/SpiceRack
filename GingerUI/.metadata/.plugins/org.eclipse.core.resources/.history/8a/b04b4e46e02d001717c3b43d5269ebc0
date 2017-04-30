@@ -1,0 +1,31 @@
+/**
+ * 
+ */
+package com.cucumber.bdd.tests;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+import cucumber.api.testng.TestNGCucumberRunner;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+		monochrome =true,
+		features = "src/test/java/com/cucumber/bdd/features",
+		glue={"src/test/java/com/cucumber/bdd/stepdefinition"},
+		plugin = {"pretty", "html:target/cucumber"})
+
+
+public class TestRunner {
+	
+	@Test
+	public void runTests(){
+		System.out.println("Hiyo");
+		new TestNGCucumberRunner(getClass()).runCukes();
+	}
+	
+
+}
+
+

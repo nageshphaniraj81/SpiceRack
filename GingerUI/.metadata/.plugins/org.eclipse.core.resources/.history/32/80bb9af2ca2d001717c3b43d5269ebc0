@@ -1,0 +1,7 @@
+Feature: WomenFeature
+  This feature is responsible for testing all the scenarios of Women Page
+
+  Scenario: Check Women page is displayed correctly
+    And I ensure home page open
+    When I click on women tab
+    Then Women page should be displayed

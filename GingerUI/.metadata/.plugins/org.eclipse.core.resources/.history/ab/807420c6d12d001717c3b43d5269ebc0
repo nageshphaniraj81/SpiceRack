@@ -1,0 +1,28 @@
+/**
+ * 
+ */
+package com.cucumber.bdd.stepdefinition;
+
+import com.normal.tests.pages.MyStoreWomenPage;
+
+import cucumber.api.java.en.When;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+/**
+ * @author Nagesh Phaniraj
+ *
+ */
+public class QuincySteps {
+	
+
+When("^I click on Quincy tab$", () -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+});
+
+Then("^Quincy page should be displayed$", () -> {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+});
+}

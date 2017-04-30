@@ -1,0 +1,7 @@
+Feature: DressesFeature
+  This feature is responsible for testing all the scenarios of Dresses Page
+
+  Scenario: Check Dresses page is displayed correctly
+    And I ensure home page open
+    When I click on Dresses tab
+    Then Dresses page should be displayed

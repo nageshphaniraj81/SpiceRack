@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="gingerui" tests="14" started="14" failures="0" errors="0" ignored="14">
+  <testsuite name="com.spicerack.runner.TestRunner" time="0.063">
+    <testsuite name="Feature: DressesFeature" time="0.001">
+      <testsuite name="Scenario: Check Dresses page is displayed correctly" time="0.001" incomplete="true">
+        <skipped/>
+        <testcase name="And I ensure home page open" classname="Scenario: Check Dresses page is displayed correctly" time="0.001" ignored="true"/>
+        <testcase name="When I click on Dresses tab" classname="Scenario: Check Dresses page is displayed correctly" time="0.0" ignored="true"/>
+        <testcase name="Then Dresses page should be displayed" classname="Scenario: Check Dresses page is displayed correctly" time="0.0" ignored="true"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature: LoginFeature" time="0.0">
+      <testsuite name="Scenario: Check login with correct username and password" time="0.0" incomplete="true">
+        <skipped/>
+        <testcase name="And I ensure home page open" classname="Scenario: Check login with correct username and password" time="0.0" ignored="true"/>
+        <testcase name="Then I click on login link" classname="Scenario: Check login with correct username and password" time="0.0" ignored="true"/>
+        <testcase name="When I enter username and password" classname="Scenario: Check login with correct username and password" time="0.0" ignored="true"/>
+        <testcase name="Then I click on Login button" classname="Scenario: Check login with correct username and password" time="0.0" ignored="true"/>
+        <testcase name="Then I should see user name in on top of the page" classname="Scenario: Check login with correct username and password" time="0.0" ignored="true"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature: TShirtFeature" time="0.0">
+      <testsuite name="Scenario: Check TShirt page is displayed correctly" time="0.0" incomplete="true">
+        <skipped/>
+        <testcase name="And I ensure home page open" classname="Scenario: Check TShirt page is displayed correctly" time="0.0" ignored="true"/>
+        <testcase name="When I click on TShirt tab" classname="Scenario: Check TShirt page is displayed correctly" time="0.0" ignored="true"/>
+        <testcase name="Then TShirt page should be displayed" classname="Scenario: Check TShirt page is displayed correctly" time="0.0" ignored="true"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature: WomenFeature" time="0.0">
+      <testsuite name="Scenario: Check Women page is displayed correctly" time="0.0" incomplete="true">
+        <skipped/>
+        <testcase name="And I ensure home page open" classname="Scenario: Check Women page is displayed correctly" time="0.0" ignored="true"/>
+        <testcase name="When I click on women tab" classname="Scenario: Check Women page is displayed correctly" time="0.0" ignored="true"/>
+        <testcase name="Then Women page should be displayed" classname="Scenario: Check Women page is displayed correctly" time="0.0" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

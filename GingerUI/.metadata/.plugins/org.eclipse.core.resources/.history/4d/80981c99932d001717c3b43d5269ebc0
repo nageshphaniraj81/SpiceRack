@@ -1,0 +1,30 @@
+/**
+ * 
+ */
+package com.spicerack.stepdefinitions;
+
+import org.junit.Assert;
+
+import com.spicerack.framework.base.Base;
+import com.spicerack.pages.MyStoreLoginPage;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+/**
+ * @author Nagesh Phaniraj
+ *
+ */
+public class LoginSteps extends Base {
+	
+	@And("^I ensure home page open$")
+	public void i_ensure_home_page_open() throws Throwable  {
+		CurrentPage= GetInstance(MyStoreLoginPage.class);
+		Assert.assertTrue("Login Page is not loaded",CurrentPage.As(MyStoreLoginPage.class).isLogin());
+	}
+
+
+}

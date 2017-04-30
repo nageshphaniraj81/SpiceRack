@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package com.spicerack.runner;
+
+import org.junit.runner.RunWith;
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+
+/**
+ * @author Nagesh Phaniraj
+ *
+ */
+
+@RunWith(Cucumber.class)
+@CucumberOptions(features = {"src/test/java/com/spicerack/features/"},glue = {"/gingerui/src/test/java/com/spicerack/stepdefinitions"},format={"pretty"})
+public class TestRunner {
+
+}

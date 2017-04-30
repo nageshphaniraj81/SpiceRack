@@ -14,5 +14,6 @@ com\spicerack\framework\utilities\SeleniumListeners.class
 com\spicerack\framework\base\Base.class
 com\spicerack\framework\base\Browser.class
 com\spicerack\framework\base\InitilizeFramework.class
+com\spicerack\framework\utilities\CucumberUtil$DataCollection.class
 com\spicerack\framework\base\DriverContext.class
 com\spicerack\framework\utilities\ExcelUtil.class

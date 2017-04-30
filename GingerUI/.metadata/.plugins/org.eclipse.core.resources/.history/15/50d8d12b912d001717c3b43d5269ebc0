@@ -1,0 +1,12 @@
+Feature: LoginFeature
+  This feature is responsible for testing all the scenarios for Login of application
+
+  Scenario: Check login with correct username and password
+    Given I have launched the application and I am in home page
+    And I see home page open
+    Then I click on login link
+    When I enter username and password
+      | UserName                     | Password |
+      | nageshphaniraj2017@gmail.com | test123  |
+    Then I click on Login button
+    Then I should see user name in on top of the page
