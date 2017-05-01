@@ -1,11 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6" started-at="2017-04-30T19:53:21Z" finished-at="2017-04-30T19:53:21Z">
+  <suite name="Default suite" duration-ms="49322" started-at="2017-05-01T19:45:37Z" finished-at="2017-05-01T19:46:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6" started-at="2017-04-30T19:53:21Z" finished-at="2017-04-30T19:53:21Z">
+    <test name="Default test" duration-ms="49322" started-at="2017-05-01T19:45:37Z" finished-at="2017-05-01T19:46:27Z">
+      <class name="com.normal.tests.test.SampleShoppingTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.normal.tests.test.SampleShoppingTest@647e447]" name="initialize" is-config="true" duration-ms="13869" started-at="2017-05-02T01:15:37Z" finished-at="2017-05-02T01:15:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testSignIn()[pri:0, instance:com.normal.tests.test.SampleShoppingTest@647e447]" name="testSignIn" duration-ms="15381" started-at="2017-05-02T01:15:51Z" finished-at="2017-05-02T01:16:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignIn -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.normal.tests.test.SampleShoppingTest@647e447]" name="tearDown" is-config="true" duration-ms="2" started-at="2017-05-02T01:16:07Z" finished-at="2017-05-02T01:16:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSignIn status=SUCCESS method=SampleShoppingTest.testSignIn()[pri:0, instance:com.normal.tests.test.SampleShoppingTest@647e447] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testDressesPage()[pri:0, instance:com.normal.tests.test.SampleShoppingTest@647e447]" name="testDressesPage" duration-ms="2804" started-at="2017-05-02T01:16:07Z" depends-on-methods="com.normal.tests.test.SampleShoppingTest.testSignIn" finished-at="2017-05-02T01:16:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDressesPage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.normal.tests.test.SampleShoppingTest@647e447]" name="tearDown" is-config="true" duration-ms="1" started-at="2017-05-02T01:16:10Z" finished-at="2017-05-02T01:16:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDressesPage status=SUCCESS method=SampleShoppingTest.testDressesPage()[pri:0, instance:com.normal.tests.test.SampleShoppingTest@647e447] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="testTShirtPage()[pri:0, instance:com.normal.tests.test.SampleShoppingTest@647e447]" name="testTShirtPage" duration-ms="1781" started-at="2017-05-02T01:16:10Z" depends-on-methods="com.normal.tests.test.SampleShoppingTest.testSignIn" finished-at="2017-05-02T01:16:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTShirtPage -->
+        <test-method status="PASS" signature="testWomenPage()[pri:0, instance:com.normal.tests.test.SampleShoppingTest@647e447]" name="testWomenPage" duration-ms="2345" started-at="2017-05-02T01:16:11Z" depends-on-methods="com.normal.tests.test.SampleShoppingTest.testSignIn" finished-at="2017-05-02T01:16:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWomenPage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.normal.tests.test.SampleShoppingTest@647e447]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-05-02T01:16:11Z" finished-at="2017-05-02T01:16:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTShirtPage status=SUCCESS method=SampleShoppingTest.testTShirtPage()[pri:0, instance:com.normal.tests.test.SampleShoppingTest@647e447] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.normal.tests.test.SampleShoppingTest@647e447]" name="cleanUp" is-config="true" duration-ms="13054" started-at="2017-05-02T01:16:14Z" finished-at="2017-05-02T01:16:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.normal.tests.test.SampleShoppingTest@647e447]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-05-02T01:16:14Z" finished-at="2017-05-02T01:16:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testWomenPage status=SUCCESS method=SampleShoppingTest.testWomenPage()[pri:0, instance:com.normal.tests.test.SampleShoppingTest@647e447] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.normal.tests.test.SampleShoppingTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -33,8 +33,10 @@ public class CucumberUtil {
 	
 	private static class DataCollection
 	{
+		@SuppressWarnings("unused")
 		private String ColumnName;
 		private String ColumnValue;
+		@SuppressWarnings("unused")
 		private int RowNumbers;
 		/**
 		 * @param columnName

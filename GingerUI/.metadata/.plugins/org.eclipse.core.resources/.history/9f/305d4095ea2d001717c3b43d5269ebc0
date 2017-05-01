@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite">
+	<test name="Tests">
+		<classes>
+			<class name="com.cucumber.bdd.stepdefinition.LoginSteps">
+				<methods>
+					<include name="i_ensure_home_page_open" />
+					<include name="i_click_on_login_link" />
+					<include name="i_enter_username_and_password" />
+					<include name="i_click_on_Login_button" />
+					<include name="i_should_see_user_name_in_on_top_of_the_page" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

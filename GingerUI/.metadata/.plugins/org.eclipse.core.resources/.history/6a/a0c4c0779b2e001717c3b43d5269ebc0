@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+package com.spicerack.framework.controls.internals;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.internal.Locatable;
+import org.openqa.selenium.internal.WrapsElement;
+
+/**
+ * @author Nagesh Phaniraj
+ *
+ */
+public interface Control extends WebElement, WrapsElement, Locatable {
+
+}

@@ -1,0 +1,9 @@
+<suite name="TestSuite">
+<test name="Firefox Listners Test">
+	<classes>
+		<class name="test.SampleShoppingTest">
+		</class>
+	</classes>
+</test>
+</suite>
+

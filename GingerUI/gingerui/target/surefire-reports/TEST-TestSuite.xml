@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="9" failures="0" name="TestSuite" time="21.835" errors="0" skipped="0">
+<testsuite tests="13" failures="2" name="TestSuite" time="84.152" errors="0" skipped="5">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_65\jre\bin"/>
@@ -63,13 +63,77 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.normal.tests.test.SampleShoppingTest" name="testSignIn" time="15.116"/>
-  <testcase classname="com.cucumber.bdd.tests.TestRunner" name="runTests" time="0.027"/>
-  <testcase classname="com.cucumber.bdd.tests.TestRunner" name="runTests" time="0.008"/>
-  <testcase classname="com.cucumber.bdd.tests.TestRunner" name="runTests" time="0.008"/>
-  <testcase classname="com.cucumber.bdd.tests.TestRunner" name="runTests" time="0.004"/>
-  <testcase classname="com.normal.tests.test.SampleShoppingTest" name="testDressesPage" time="2.583"/>
-  <testcase classname="com.normal.tests.test.SampleShoppingTest" name="testTShirtPage" time="1.788"/>
-  <testcase classname="com.normal.tests.test.SampleShoppingTest" name="testWomenPage" time="2.297"/>
-  <testcase classname="com.normal.tests.test.DatabaseTest" name="test" time="0.004"/>
+  <testcase classname="com.normal.tests.test.SampleShoppingTest" name="testSignIn" time="15.45"/>
+  <testcase classname="com.cucumber.bdd.tests.TestRunner" name="runTests" time="16.528"/>
+  <testcase classname="com.cucumber.bdd.tests.TestRunner" name="runTests" time="20.784"/>
+  <testcase classname="com.cucumber.bdd.tests.TestRunner" name="runTests" time="15.316"/>
+  <testcase classname="com.cucumber.bdd.tests.TestRunner" name="runTests" time="15.814"/>
+  <testcase classname="com.normal.tests.test.SampleShoppingTest" name="testDressesPage" time="0.046">
+    <failure message="Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.1.0&apos;, revision: &apos;b94c902&apos;, time: &apos;2017-02-16 12:21:31 -0800&apos;
+System info: host: &apos;NAGESH&apos;, ip: &apos;10.0.0.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.1.0&apos;, revision: &apos;b94c902&apos;, time: &apos;2017-02-16 12:21:31 -0800&apos;
+System info: host: &apos;NAGESH&apos;, ip: &apos;10.0.0.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:130)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at com.spicerack.framework.controls.api.ControlHandler.invoke(ControlHandler.java:38)
+	at com.sun.proxy.$Proxy18.isDisplayed(Unknown Source)
+	at com.normal.tests.pages.MyStoreDressesPage.switchToDressesTab(MyStoreDressesPage.java:32)
+	at com.normal.tests.test.SampleShoppingTest.testDressesPage(SampleShoppingTest.java:70)
+</failure>
+    <system-out>
+4 Scenarios (4 passed)
+14 Steps (14 passed)
+1m8.395s
+
+</system-out>
+  </testcase>
+  <testcase classname="com.normal.tests.test.SampleShoppingTest" name="tearDown" time="0.046">
+    <failure message="Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.1.0&apos;, revision: &apos;b94c902&apos;, time: &apos;2017-02-16 12:21:31 -0800&apos;
+System info: host: &apos;NAGESH&apos;, ip: &apos;10.0.0.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: driver.version: FirefoxDriver" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: &apos;3.1.0&apos;, revision: &apos;b94c902&apos;, time: &apos;2017-02-16 12:21:31 -0800&apos;
+System info: host: &apos;NAGESH&apos;, ip: &apos;10.0.0.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_65&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:130)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+	at org.openqa.selenium.firefox.FirefoxDriver.getScreenshotAs(FirefoxDriver.java:463)
+	at com.spicerack.framework.utilities.ReportingUtil.takeScreenshot(ReportingUtil.java:71)
+	at com.spicerack.framework.utilities.ReportingUtil.takeScreenshotOnFailure(ReportingUtil.java:52)
+	at com.normal.tests.test.SampleShoppingTest.tearDown(SampleShoppingTest.java:101)
+</failure>
+  </testcase>
+  <testcase classname="com.normal.tests.test.SampleShoppingTest" name="testTShirtPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.normal.tests.test.SampleShoppingTest" name="tearDown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.normal.tests.test.SampleShoppingTest" name="testWomenPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.normal.tests.test.SampleShoppingTest" name="tearDown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.normal.tests.test.DatabaseTest" name="test" time="0.039"/>
+  <testcase classname="com.normal.tests.test.SampleShoppingTest" name="cleanUp" time="0.129">
+    <skipped/>
+    <system-out>Connecting to a selected database...
+Connected database successfully...
+Creating statement...
+</system-out>
+    <system-err>Tue May 02 01:06:49 IST 2017 WARN: Establishing SSL connection without server&apos;s identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn&apos;t set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to &apos;false&apos;. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+</system-err>
+  </testcase>
 </testsuite>

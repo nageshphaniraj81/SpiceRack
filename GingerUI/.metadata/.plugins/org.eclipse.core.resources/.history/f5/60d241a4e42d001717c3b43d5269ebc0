@@ -1,0 +1,21 @@
+<suite name="TestSuite">
+
+<listeners>
+   <listener class-name="Utilities.SeleniumListeners"></listener>
+</listeners>
+
+<test name="Firefox Listners Test">
+	<classes>
+		<class name="TestCases.TestNG_TestCaseForListner">
+		</class>
+	</classes>
+</test>
+</suite>
+
+<!--  <test name="FireFox Test">
+<parameter name="browserType" value="firefox" />
+	<classes>
+		<class name="TestCases.TestNG_MultiBrowserAndParallelTests">
+		</class>
+	</classes>
+</test> -->

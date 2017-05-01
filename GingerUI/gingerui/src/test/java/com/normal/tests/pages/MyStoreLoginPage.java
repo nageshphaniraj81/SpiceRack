@@ -8,17 +8,17 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
 import com.spicerack.framework.base.BasePage;
+import com.spicerack.framework.controls.elements.Button;
+import com.spicerack.framework.controls.elements.ButtonBase;
+import com.spicerack.framework.controls.elements.TextBox;
+import com.spicerack.framework.controls.elements.TextBoxBase;
 
 /**
  * @author Nagesh Phaniraj
  *
  */
 public class MyStoreLoginPage extends BasePage {
-	
-	public MyStoreLoginPage(){
-		super();
-	}
-	
+
 	@FindBy(how = How.ID, using = "email")
 	public WebElement txtUserName;
 	
@@ -30,14 +30,19 @@ public class MyStoreLoginPage extends BasePage {
 
 
 	public void login(String email,String password){
-		txtUserName.clear();
-		txtUserName.sendKeys(email);
-		txtPassword.clear();
-		txtPassword.sendKeys(password);
+		TextBox txtUser = new TextBoxBase(txtUserName);
+		txtUser.clearText();
+		txtUser.enterText(email);
+		TextBox txtPwd = new TextBoxBase(txtPassword);
+		txtPwd.clearText();
+		txtPwd.enterText(password);
 	}
+
 	
 	public MyStoreHomePage clickLogin() throws InterruptedException{
-		btnSignIn.click();
+	
+		Button btnSubmit = new ButtonBase(btnSignIn);
+		btnSubmit.performClick();
 		Thread.sleep(3000);
 		return GetInstance(MyStoreHomePage.class);
 	}

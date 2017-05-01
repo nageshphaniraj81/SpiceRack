@@ -80,6 +80,10 @@ formatter.feature({
   "id": "dressesfeature",
   "keyword": "Feature"
 });
+formatter.before({
+  "duration": 11848412112,
+  "status": "passed"
+});
 formatter.scenario({
   "line": 22,
   "name": "Check Dresses page is displayed correctly",
@@ -103,17 +107,30 @@ formatter.step({
   "name": "Dresses page should be displayed",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "LoginSteps.i_ensure_home_page_open()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 366036755,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "DressesSteps.i_click_on_Dresses_tab()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 2491684535,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DressesSteps.dresses_page_should_be_displayed()"
+});
+formatter.result({
+  "duration": 156916149,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 1644774655,
+  "status": "passed"
 });
 formatter.uri("LoginShop.feature");
 formatter.feature({
@@ -197,6 +214,10 @@ formatter.feature({
   "id": "loginfeature",
   "keyword": "Feature"
 });
+formatter.before({
+  "duration": 10813415686,
+  "status": "passed"
+});
 formatter.scenario({
   "line": 22,
   "name": "Check login with correct username and password",
@@ -246,25 +267,44 @@ formatter.step({
   "name": "I should see user name in on top of the page",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "LoginSteps.i_ensure_home_page_open()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 43025441,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "LoginSteps.i_click_on_login_link()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 3058475112,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "LoginSteps.i_enter_username_and_password(DataTable)"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 264940685,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginSteps.i_click_on_Login_button()"
+});
+formatter.result({
+  "duration": 3468369601,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginSteps.i_should_see_user_name_in_on_top_of_the_page()"
+});
+formatter.result({
+  "duration": 73706447,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 1657500714,
+  "status": "passed"
 });
 formatter.uri("TShirtShop.feature");
 formatter.feature({
@@ -348,6 +388,10 @@ formatter.feature({
   "id": "tshirtfeature",
   "keyword": "Feature"
 });
+formatter.before({
+  "duration": 10607853786,
+  "status": "passed"
+});
 formatter.scenario({
   "line": 22,
   "name": "Check TShirt page is displayed correctly",
@@ -371,17 +415,30 @@ formatter.step({
   "name": "TShirt page should be displayed",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "LoginSteps.i_ensure_home_page_open()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 44808526,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "TShirtsSteps.i_click_on_TShirt_tab()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 1985173149,
+  "status": "passed"
+});
+formatter.match({
+  "location": "TShirtsSteps.tshirt_page_should_be_displayed()"
+});
+formatter.result({
+  "duration": 46324288,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 1450938102,
+  "status": "passed"
 });
 formatter.uri("WomenShop.feature");
 formatter.feature({
@@ -465,6 +522,10 @@ formatter.feature({
   "id": "womenfeature",
   "keyword": "Feature"
 });
+formatter.before({
+  "duration": 11611314053,
+  "status": "passed"
+});
 formatter.scenario({
   "line": 22,
   "name": "Check Women page is displayed correctly",
@@ -488,16 +549,29 @@ formatter.step({
   "name": "Women page should be displayed",
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "LoginSteps.i_ensure_home_page_open()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 38041480,
+  "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "WomenSteps.i_click_on_women_tab()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 2186949142,
+  "status": "passed"
+});
+formatter.match({
+  "location": "WomenSteps.women_page_should_be_displayed()"
+});
+formatter.result({
+  "duration": 129394964,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 1524151425,
+  "status": "passed"
 });
 });

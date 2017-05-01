@@ -18,7 +18,7 @@ import cucumber.api.testng.CucumberFeatureWrapper;
 @CucumberOptions(
 		monochrome =true,
 		features = "src/test/java/com/cucumber/bdd/features",
-		glue={"src/test/java/com/cucumber/bdd/stepdefinition"},
+		glue={"com/cucumber/bdd/stepdefinition"},
 		plugin = {"pretty", "html:target/cucumber"})
 
 
@@ -32,6 +32,17 @@ public class TestRunner {
 	
 	@Test(dataProvider = "features")
 	public void runTests(CucumberFeatureWrapper cucumberFeatureWrapper){
+		
+//		List <CucumberTagStatement> elements = cucumberFeatureWrapper.getCucumberFeature().getFeatureElements();
+//		for(Iterator<CucumberTagStatement> element = elements.iterator();element.hasNext();)
+//		{
+//			// Pass the hardcoaded scenario name
+//			CucumberTagStatement scenarioName = element.next();
+//			if(!scenarioName.getVisualName().equals("Scenario: Check Dresses page is displayed correctly")){
+//				element.remove();
+//			}
+//		}
+			
 		testNGCucumberRunner.runCucumber(cucumberFeatureWrapper.getCucumberFeature());	
 	}
 	

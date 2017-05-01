@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.spicerack.framework.controls.api;
+
+/**
+ * @author Nagesh Phaniraj
+ *
+ */
+public @interface ImplementedBy {
+
+}
