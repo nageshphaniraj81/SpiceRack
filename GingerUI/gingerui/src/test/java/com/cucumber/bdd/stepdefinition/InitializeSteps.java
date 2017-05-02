@@ -5,10 +5,11 @@ package com.cucumber.bdd.stepdefinition;
 
 import java.io.IOException;
 
-import com.spicerack.framework.base.DriverContext;
-import com.spicerack.framework.base.InitilizeFramework;
-import com.spicerack.framework.config.ConfigReader;
-import com.spicerack.framework.config.Settings;
+import com.spicerack.framework.configuration.ConfigReader;
+import com.spicerack.framework.configuration.Settings;
+import com.spicerack.framework.initialization.DriverContext;
+import com.spicerack.framework.initialization.InitilizeFramework;
+
 import cucumber.api.java.Before;
 
 /**

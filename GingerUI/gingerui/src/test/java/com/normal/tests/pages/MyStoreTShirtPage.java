@@ -8,9 +8,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
-import com.spicerack.framework.base.BasePage;
-import com.spicerack.framework.base.DriverContext;
-import com.spicerack.framework.utilities.SyncronizationHelper;
+import com.spicerack.framework.frameworkutilities.SyncronizationHelper;
+import com.spicerack.framework.initialization.BasePage;
+import com.spicerack.framework.initialization.DriverContext;
 
 /**
  * @author Nagesh Phaniraj

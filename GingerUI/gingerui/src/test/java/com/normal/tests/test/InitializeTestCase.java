@@ -8,13 +8,14 @@ import java.io.IOException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.annotations.BeforeTest;
-import com.spicerack.framework.base.DriverContext;
-import com.spicerack.framework.base.InitilizeFramework;
-import com.spicerack.framework.config.ConfigReader;
-import com.spicerack.framework.config.Settings;
-import com.spicerack.framework.utilities.ExcelUtil;
-import com.spicerack.framework.utilities.LogUtil;
-import com.spicerack.framework.utilities.ReportingUtil;
+
+import com.spicerack.framework.configuration.ConfigReader;
+import com.spicerack.framework.configuration.Settings;
+import com.spicerack.framework.frameworkutilities.ExcelUtil;
+import com.spicerack.framework.frameworkutilities.LogUtil;
+import com.spicerack.framework.frameworkutilities.ReportingUtil;
+import com.spicerack.framework.initialization.DriverContext;
+import com.spicerack.framework.initialization.InitilizeFramework;
 
 import jxl.read.biff.BiffException;
 

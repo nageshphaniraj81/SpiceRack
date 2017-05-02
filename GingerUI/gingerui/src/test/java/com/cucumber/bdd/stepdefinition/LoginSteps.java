@@ -4,9 +4,10 @@
 package com.cucumber.bdd.stepdefinition;
 
 import org.junit.Assert;
-import com.spicerack.framework.base.Base;
-import com.spicerack.framework.utilities.CucumberUtil;
-import com.spicerack.framework.utilities.ReportingUtil;
+
+import com.spicerack.framework.frameworkutilities.CucumberUtil;
+import com.spicerack.framework.frameworkutilities.ReportingUtil;
+import com.spicerack.framework.initialization.Base;
 import com.normal.tests.pages.MyStoreHomePage;
 import com.normal.tests.pages.MyStoreLoginPage;
 import cucumber.api.DataTable;

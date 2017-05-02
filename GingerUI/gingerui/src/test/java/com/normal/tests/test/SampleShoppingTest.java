@@ -11,9 +11,10 @@ import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
-import com.spicerack.framework.base.DriverContext;
-import com.spicerack.framework.config.Settings;
-import com.spicerack.framework.utilities.ExcelUtil;
+
+import com.spicerack.framework.configuration.Settings;
+import com.spicerack.framework.frameworkutilities.ExcelUtil;
+import com.spicerack.framework.initialization.DriverContext;
 import com.normal.tests.pages.MyStoreDressesPage;
 import com.normal.tests.pages.MyStoreHomePage;
 import com.normal.tests.pages.MyStoreLoginPage;

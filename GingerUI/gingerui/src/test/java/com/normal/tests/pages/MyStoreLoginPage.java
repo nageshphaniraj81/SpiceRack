@@ -7,11 +7,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
-import com.spicerack.framework.base.BasePage;
 import com.spicerack.framework.controls.elements.Button;
 import com.spicerack.framework.controls.elements.ButtonBase;
 import com.spicerack.framework.controls.elements.TextBox;
 import com.spicerack.framework.controls.elements.TextBoxBase;
+import com.spicerack.framework.initialization.BasePage;
 
 /**
  * @author Nagesh Phaniraj

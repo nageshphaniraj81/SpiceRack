@@ -3,14 +3,19 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
   <test name="Tests(failed)">
     <classes>
-      <class name="com.cucumber.bdd.stepdefinition.LoginSteps">
+      <class name="com.normal.tests.test.DatabaseTest">
         <methods>
-          <include name="i_click_on_login_link"/>
-          <include name="i_ensure_home_page_open"/>
-          <include name="i_click_on_Login_button"/>
-          <include name="i_should_see_user_name_in_on_top_of_the_page"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
         </methods>
-      </class> <!-- com.cucumber.bdd.stepdefinition.LoginSteps -->
+      </class> <!-- com.normal.tests.test.DatabaseTest -->
+      <class name="com.cucumber.bdd.tests.TestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runTests" invocation-numbers="2"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.cucumber.bdd.tests.TestRunner -->
     </classes>
   </test> <!-- Tests(failed) -->
 </suite> <!-- Failed suite [TestSuite] -->

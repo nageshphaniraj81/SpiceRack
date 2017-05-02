@@ -1,3 +1,11 @@
 1493653267353	Delete element
 1493653454760	Rename type 'TextboxBase'
 1493653543114	Delete element
+1493703947074	Rename package 'com.spicerack.framework.base'
+1493703992858	Rename package 'com.spicerack.framework.config'
+1493704079731	Rename package 'com.spicerack.framework.utilities'
+1493704100470	Rename package 'com.spicerack.framework.controls'
+1493704110566	Delete element
+1493704123392	Rename package 'com.spicerack.framework.controls'
+1493704134989	Delete element
+1493706628478	Delete element

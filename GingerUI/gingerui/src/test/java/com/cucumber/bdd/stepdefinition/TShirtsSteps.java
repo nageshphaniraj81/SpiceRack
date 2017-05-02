@@ -5,8 +5,8 @@ package com.cucumber.bdd.stepdefinition;
 
 import org.testng.Assert;
 
-import com.spicerack.framework.base.Base;
 import com.normal.tests.pages.MyStoreTShirtPage;
+import com.spicerack.framework.initialization.Base;
 
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;

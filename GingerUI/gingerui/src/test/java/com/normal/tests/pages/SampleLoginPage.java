@@ -2,7 +2,8 @@ package com.normal.tests.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
-import com.spicerack.framework.base.BasePage;
+
+import com.spicerack.framework.initialization.BasePage;
 /**
  * @author Nagesh Phaniraj
  *

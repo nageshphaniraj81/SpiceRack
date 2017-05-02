@@ -2,7 +2,7 @@ package com.normal.tests.test;
 
 import org.testng.annotations.Test;
 
-import com.spicerack.framework.utilities.DataBaseUtil;
+import com.spicerack.framework.frameworkutilities.DataBaseUtil;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.AfterClass;

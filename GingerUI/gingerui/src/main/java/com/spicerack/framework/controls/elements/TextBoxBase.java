@@ -17,7 +17,6 @@ public class TextBoxBase extends ControlBase implements TextBox {
 	 */
 	public TextBoxBase(WebElement element) {
 		super(element);
-		// TODO Auto-generated constructor stub
 	}
 
 	/* (non-Javadoc)

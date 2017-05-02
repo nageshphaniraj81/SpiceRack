@@ -1,0 +1,51 @@
+/**
+ * 
+ */
+package com.cucumber.bdd.stepdefinition;
+
+import com.normal.tests.pages.MyStoreHomePage;
+import com.spicerack.framework.initialization.Base;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+/**
+ * @author Nagesh Phaniraj
+ *
+ */
+public class ContactusSteps extends Base {
+
+	@When("^I click on Contact Us link$")
+	public void i_click_on_Contact_Us_link() throws Throwable {
+		CurrentPage = GetInstance(MyStoreHomePage.class);
+		CurrentPage = CurrentPage.As(MyStoreHomePage.class).clickContactUs();
+		
+	}
+
+	@Then("^Customer Service Contact us page should be displayed$")
+	public void customer_Service_Contact_us_page_should_be_displayed() throws Throwable {
+	}
+
+	@When("^I select Subject Heading$")
+	public void i_select_Subject_Heading() throws Throwable {
+	}
+
+	@When("^Enter Email ID$")
+	public void enter_Email_ID() throws Throwable {
+	}
+
+	@When("^Enter Test Message$")
+	public void enter_Test_Message() throws Throwable {
+	}
+
+	@When("^Click on Send Link$")
+	public void click_on_Send_Link() throws Throwable {
+	}
+
+	@Then("^I see confirmation message on the screen$")
+	public void i_see_confirmation_message_on_the_screen() throws Throwable {
+	}
+
+	
+}
