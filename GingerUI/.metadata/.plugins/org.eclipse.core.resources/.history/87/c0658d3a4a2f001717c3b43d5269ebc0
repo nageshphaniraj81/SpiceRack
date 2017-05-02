@@ -1,0 +1,17 @@
+/**
+ * 
+ */
+package com.spicerack.framework.controls.elements;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.security.Credentials;
+
+/**
+ * @author Nagesh Phaniraj
+ *
+ */
+public class AlertBase implements Alerts {
+
+
+
+}

@@ -1,0 +1,17 @@
+/**
+ * 
+ */
+package com.spicerack.framework.controls.elements;
+
+import org.openqa.selenium.WebElement;
+
+/**
+ * @author Nagesh Phaniraj
+ *
+ */
+public interface CheckBox {
+
+	public void clickRadioButton(WebElement element);
+	
+	
+}

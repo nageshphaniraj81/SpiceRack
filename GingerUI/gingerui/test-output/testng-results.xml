@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="TestSuite" duration-ms="76277" started-at="2017-05-02T06:42:15Z" finished-at="2017-05-02T06:43:32Z">
+  <suite name="TestSuite" duration-ms="103482" started-at="2017-05-02T15:23:30Z" finished-at="2017-05-02T15:25:14Z">
     <groups>
     </groups>
-    <test name="Tests" duration-ms="76277" started-at="2017-05-02T06:42:15Z" finished-at="2017-05-02T06:43:32Z">
+    <test name="Tests" duration-ms="103482" started-at="2017-05-02T15:23:30Z" finished-at="2017-05-02T15:25:14Z">
       <class name="com.cucumber.bdd.tests.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cucumber.bdd.tests.TestRunner@6536e911]" name="setUpClass" is-config="true" duration-ms="328" started-at="2017-05-02T12:12:15Z" finished-at="2017-05-02T12:12:16Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cucumber.bdd.tests.TestRunner@6536e911]" name="setUpClass" is-config="true" duration-ms="325" started-at="2017-05-02T20:53:30Z" finished-at="2017-05-02T20:53:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runTests(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.bdd.tests.TestRunner@6536e911]" name="runTests" duration-ms="13039" started-at="2017-05-02T12:12:16Z" data-provider="features" finished-at="2017-05-02T12:12:29Z">
+        <test-method status="PASS" signature="runTests(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.bdd.tests.TestRunner@6536e911]" name="runTests" duration-ms="37595" started-at="2017-05-02T20:53:31Z" data-provider="features" finished-at="2017-05-02T20:54:08Z">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runTests -->
-        <test-method status="PASS" signature="runTests(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.bdd.tests.TestRunner@6536e911]" name="runTests" duration-ms="14498" started-at="2017-05-02T12:12:29Z" data-provider="features" finished-at="2017-05-02T12:12:43Z">
+        <test-method status="PASS" signature="runTests(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.bdd.tests.TestRunner@6536e911]" name="runTests" duration-ms="15584" started-at="2017-05-02T20:54:08Z" data-provider="features" finished-at="2017-05-02T20:54:24Z">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runTests -->
-        <test-method status="FAIL" signature="runTests(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.bdd.tests.TestRunner@6536e911]" name="runTests" duration-ms="19542" started-at="2017-05-02T12:12:43Z" data-provider="features" finished-at="2017-05-02T12:13:03Z">
+        <test-method status="FAIL" signature="runTests(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.bdd.tests.TestRunner@6536e911]" name="runTests" duration-ms="19692" started-at="2017-05-02T20:54:24Z" data-provider="features" finished-at="2017-05-02T20:54:44Z">
           <params>
             <param index="0">
               <value>
@@ -48,8 +48,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.1.0', revision: 'b94c902', time: '2017-02-16 12:21:31 -0800'
 System info: host: 'NAGESH', ip: '10.0.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, appBuildId=20161019084923, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=13368, browserVersion=49.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt, device=desktop, firefox_profile=UEsDBBQACAgIAJZhokoAAAAAAAAAA...}]
-Session ID: a225100f-1de3-4c6c-8e80-b8289d5b063f
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, appBuildId=20161019084923, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=16936, browserVersion=49.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt, device=desktop, firefox_profile=UEsDBBQACAgIAMymokoAAAAAAAAAA...}]
+Session ID: bcb853bf-05af-4191-9df6-c97e45467b6e
 *** Element info: {Using=class name, value=login}]]>
             </message>
             <full-stacktrace>
@@ -58,11 +58,11 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.1.0', revision: 'b94c902', time: '2017-02-16 12:21:31 -0800'
 System info: host: 'NAGESH', ip: '10.0.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, appBuildId=20161019084923, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=13368, browserVersion=49.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt, device=desktop, firefox_profile=UEsDBBQACAgIAJZhokoAAAAAAAAAA...}]
-Session ID: a225100f-1de3-4c6c-8e80-b8289d5b063f
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, appBuildId=20161019084923, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=16936, browserVersion=49.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt, device=desktop, firefox_profile=UEsDBBQACAgIAMymokoAAAAAAAAAA...}]
+Session ID: bcb853bf-05af-4191-9df6-c97e45467b6e
 *** Element info: {Using=class name, value=login}
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
-	at com.cucumber.bdd.tests.TestRunner.runTests(TestRunner.java:46)
+	at com.cucumber.bdd.tests.TestRunner.runTests(TestRunner.java:35)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -93,8 +93,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.1.0', revision: 'b94c902', time: '2017-02-16 12:21:31 -0800'
 System info: host: 'NAGESH', ip: '10.0.0.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_65'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, appBuildId=20161019084923, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=13368, browserVersion=49.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt, device=desktop, firefox_profile=UEsDBBQACAgIAJZhokoAAAAAAAAAA...}]
-Session ID: a225100f-1de3-4c6c-8e80-b8289d5b063f
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, appBuildId=20161019084923, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=16936, browserVersion=49.0.2, platformVersion=10.0, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt, device=desktop, firefox_profile=UEsDBBQACAgIAMymokoAAAAAAAAAA...}]
+Session ID: bcb853bf-05af-4191-9df6-c97e45467b6e
 *** Element info: {Using=class name, value=login}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -114,7 +114,7 @@ Session ID: a225100f-1de3-4c6c-8e80-b8289d5b063f
 	at com.spicerack.framework.controls.api.ControlHandler.invoke(ControlHandler.java:38)
 	at com.sun.proxy.$Proxy23.isDisplayed(Unknown Source)
 	at com.spicerack.framework.controls.internals.ControlBase.isDisplayed(ControlBase.java:125)
-	at com.normal.tests.pages.MyStoreHomePage.isLoggedIn(MyStoreHomePage.java:59)
+	at com.normal.tests.pages.MyStoreHomePage.isLoggedIn(MyStoreHomePage.java:66)
 	at com.cucumber.bdd.stepdefinition.LoginSteps.i_should_see_user_name_in_on_top_of_the_page(LoginSteps.java:57)
 	at ✽.Then I should see user name in on top of the page(LoginShop.feature:29)
 ]]>
@@ -123,7 +123,7 @@ Session ID: a225100f-1de3-4c6c-8e80-b8289d5b063f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runTests -->
-        <test-method status="PASS" signature="runTests(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.bdd.tests.TestRunner@6536e911]" name="runTests" duration-ms="13971" started-at="2017-05-02T12:13:03Z" data-provider="features" finished-at="2017-05-02T12:13:17Z">
+        <test-method status="PASS" signature="runTests(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.bdd.tests.TestRunner@6536e911]" name="runTests" duration-ms="14563" started-at="2017-05-02T20:54:44Z" data-provider="features" finished-at="2017-05-02T20:54:58Z">
           <params>
             <param index="0">
               <value>
@@ -134,7 +134,7 @@ Session ID: a225100f-1de3-4c6c-8e80-b8289d5b063f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runTests -->
-        <test-method status="PASS" signature="runTests(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.bdd.tests.TestRunner@6536e911]" name="runTests" duration-ms="14168" started-at="2017-05-02T12:13:17Z" data-provider="features" finished-at="2017-05-02T12:13:31Z">
+        <test-method status="PASS" signature="runTests(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.bdd.tests.TestRunner@6536e911]" name="runTests" duration-ms="15053" started-at="2017-05-02T20:54:58Z" data-provider="features" finished-at="2017-05-02T20:55:13Z">
           <params>
             <param index="0">
               <value>
@@ -145,21 +145,21 @@ Session ID: a225100f-1de3-4c6c-8e80-b8289d5b063f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runTests -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.cucumber.bdd.tests.TestRunner@6536e911]" name="afterClass" is-config="true" duration-ms="96" started-at="2017-05-02T12:13:31Z" finished-at="2017-05-02T12:13:31Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.cucumber.bdd.tests.TestRunner@6536e911]" name="afterClass" is-config="true" duration-ms="88" started-at="2017-05-02T20:55:13Z" finished-at="2017-05-02T20:55:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.cucumber.bdd.tests.TestRunner -->
       <class name="com.normal.tests.test.DatabaseTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.normal.tests.test.DatabaseTest@520a3426]" name="beforeClass" is-config="true" duration-ms="485" started-at="2017-05-02T12:13:31Z" finished-at="2017-05-02T12:13:32Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.normal.tests.test.DatabaseTest@520a3426]" name="beforeClass" is-config="true" duration-ms="407" started-at="2017-05-02T20:55:13Z" finished-at="2017-05-02T20:55:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="test()[pri:0, instance:com.normal.tests.test.DatabaseTest@520a3426]" name="test" duration-ms="5" started-at="2017-05-02T12:13:32Z" finished-at="2017-05-02T12:13:32Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.normal.tests.test.DatabaseTest@520a3426]" name="test" duration-ms="6" started-at="2017-05-02T20:55:14Z" finished-at="2017-05-02T20:55:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.normal.tests.test.DatabaseTest@520a3426]" name="afterClass" is-config="true" duration-ms="9" started-at="2017-05-02T12:13:32Z" finished-at="2017-05-02T12:13:32Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.normal.tests.test.DatabaseTest@520a3426]" name="afterClass" is-config="true" duration-ms="26" started-at="2017-05-02T20:55:14Z" finished-at="2017-05-02T20:55:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

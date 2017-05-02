@@ -31,18 +31,7 @@ public class TestRunner {
 	}
 	
 	@Test(dataProvider = "features")
-	public void runTests(CucumberFeatureWrapper cucumberFeatureWrapper){
-		
-//		List <CucumberTagStatement> elements = cucumberFeatureWrapper.getCucumberFeature().getFeatureElements();
-//		for(Iterator<CucumberTagStatement> element = elements.iterator();element.hasNext();)
-//		{
-//			// Pass the hardcoaded scenario name
-//			CucumberTagStatement scenarioName = element.next();
-//			if(!scenarioName.getVisualName().equals("Scenario: Check Dresses page is displayed correctly")){
-//				element.remove();
-//			}
-//		}
-			
+	public void runTests(CucumberFeatureWrapper cucumberFeatureWrapper){	
 		testNGCucumberRunner.runCucumber(cucumberFeatureWrapper.getCucumberFeature());	
 	}
 	

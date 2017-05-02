@@ -15,5 +15,5 @@ import com.spicerack.framework.controls.api.ImplementedBy;
  */
 @ImplementedBy(ControlBase.class)
 public interface Control extends WebElement, WrapsElement, Locatable {
-
+  // Control Interface extends WebElement, WrapsElement, Locatable
 }

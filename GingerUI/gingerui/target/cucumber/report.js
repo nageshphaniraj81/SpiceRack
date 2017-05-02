@@ -81,7 +81,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 11091630603,
+  "duration": 12327239027,
   "status": "passed"
 });
 formatter.scenario({
@@ -136,60 +136,60 @@ formatter.match({
   "location": "LoginSteps.i_ensure_home_page_open()"
 });
 formatter.result({
-  "duration": 325105110,
+  "duration": 331687408,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactusSteps.i_click_on_Contact_Us_link()"
 });
 formatter.result({
-  "duration": 73712,
+  "duration": 6056727950,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactusSteps.customer_Service_Contact_us_page_should_be_displayed()"
 });
 formatter.result({
-  "duration": 27526,
+  "duration": 74695028,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactusSteps.i_select_Subject_Heading()"
 });
 formatter.result({
-  "duration": 33590,
+  "duration": 2286149226,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactusSteps.enter_Email_ID()"
 });
 formatter.result({
-  "duration": 22860,
+  "duration": 4129954336,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactusSteps.enter_Test_Message()"
 });
 formatter.result({
-  "duration": 18194,
+  "duration": 4124527637,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactusSteps.click_on_Send_Link()"
 });
 formatter.result({
-  "duration": 22860,
+  "duration": 4565249156,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactusSteps.i_see_confirmation_message_on_the_screen()"
 });
 formatter.result({
-  "duration": 24726,
+  "duration": 2109714781,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1581699539,
+  "duration": 1538181440,
   "status": "passed"
 });
 formatter.uri("DressesShop.feature");
@@ -275,7 +275,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 10792205278,
+  "duration": 11691124137,
   "status": "passed"
 });
 formatter.scenario({
@@ -305,25 +305,25 @@ formatter.match({
   "location": "LoginSteps.i_ensure_home_page_open()"
 });
 formatter.result({
-  "duration": 125729423,
+  "duration": 174956939,
   "status": "passed"
 });
 formatter.match({
   "location": "DressesSteps.i_click_on_Dresses_tab()"
 });
 formatter.result({
-  "duration": 2089532609,
+  "duration": 1740445892,
   "status": "passed"
 });
 formatter.match({
   "location": "DressesSteps.dresses_page_should_be_displayed()"
 });
 formatter.result({
-  "duration": 51959061,
+  "duration": 508914958,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1420995616,
+  "duration": 1415085590,
   "status": "passed"
 });
 formatter.uri("LoginShop.feature");
@@ -409,7 +409,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 10812474691,
+  "duration": 11088985834,
   "status": "passed"
 });
 formatter.scenario({
@@ -465,40 +465,40 @@ formatter.match({
   "location": "LoginSteps.i_ensure_home_page_open()"
 });
 formatter.result({
-  "duration": 127662731,
+  "duration": 125556806,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.i_click_on_login_link()"
 });
 formatter.result({
-  "duration": 3037009979,
+  "duration": 3038601786,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.i_enter_username_and_password(DataTable)"
 });
 formatter.result({
-  "duration": 232959921,
+  "duration": 237655098,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.i_click_on_Login_button()"
 });
 formatter.result({
-  "duration": 3618803756,
+  "duration": 3525149337,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.i_should_see_user_name_in_on_top_of_the_page()"
 });
 formatter.result({
-  "duration": 47803194,
-  "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: .login\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.1.0\u0027, revision: \u0027b94c902\u0027, time: \u00272017-02-16 12:21:31 -0800\u0027\nSystem info: host: \u0027NAGESH\u0027, ip: \u002710.0.0.4\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_65\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{rotatable\u003dfalse, raisesAccessibilityExceptions\u003dfalse, marionette\u003dtrue, appBuildId\u003d20161019084923, version\u003d, platform\u003dXP, proxy\u003d{}, command_id\u003d1, specificationLevel\u003d0, acceptSslCerts\u003dfalse, processId\u003d13368, browserVersion\u003d49.0.2, platformVersion\u003d10.0, XULappId\u003d{ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName\u003dfirefox, takesScreenshot\u003dtrue, takesElementScreenshot\u003dtrue, platformName\u003dwindows_nt, device\u003ddesktop, firefox_profile\u003dUEsDBBQACAgIAJZhokoAAAAAAAAAA...}]\nSession ID: a225100f-1de3-4c6c-8e80-b8289d5b063f\n*** Element info: {Using\u003dclass name, value\u003dlogin}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:457)\r\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:391)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat com.spicerack.framework.controls.api.ControlHandler.invoke(ControlHandler.java:38)\r\n\tat com.sun.proxy.$Proxy23.isDisplayed(Unknown Source)\r\n\tat com.spicerack.framework.controls.internals.ControlBase.isDisplayed(ControlBase.java:125)\r\n\tat com.normal.tests.pages.MyStoreHomePage.isLoggedIn(MyStoreHomePage.java:59)\r\n\tat com.cucumber.bdd.stepdefinition.LoginSteps.i_should_see_user_name_in_on_top_of_the_page(LoginSteps.java:57)\r\n\tat ✽.Then I should see user name in on top of the page(LoginShop.feature:29)\r\n",
+  "duration": 45839095,
+  "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: .login\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.1.0\u0027, revision: \u0027b94c902\u0027, time: \u00272017-02-16 12:21:31 -0800\u0027\nSystem info: host: \u0027NAGESH\u0027, ip: \u002710.0.0.4\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_65\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{rotatable\u003dfalse, raisesAccessibilityExceptions\u003dfalse, marionette\u003dtrue, appBuildId\u003d20161019084923, version\u003d, platform\u003dXP, proxy\u003d{}, command_id\u003d1, specificationLevel\u003d0, acceptSslCerts\u003dfalse, processId\u003d16936, browserVersion\u003d49.0.2, platformVersion\u003d10.0, XULappId\u003d{ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName\u003dfirefox, takesScreenshot\u003dtrue, takesElementScreenshot\u003dtrue, platformName\u003dwindows_nt, device\u003ddesktop, firefox_profile\u003dUEsDBBQACAgIAMymokoAAAAAAAAAA...}]\nSession ID: bcb853bf-05af-4191-9df6-c97e45467b6e\n*** Element info: {Using\u003dclass name, value\u003dlogin}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:457)\r\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:391)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat com.spicerack.framework.controls.api.ControlHandler.invoke(ControlHandler.java:38)\r\n\tat com.sun.proxy.$Proxy23.isDisplayed(Unknown Source)\r\n\tat com.spicerack.framework.controls.internals.ControlBase.isDisplayed(ControlBase.java:125)\r\n\tat com.normal.tests.pages.MyStoreHomePage.isLoggedIn(MyStoreHomePage.java:66)\r\n\tat com.cucumber.bdd.stepdefinition.LoginSteps.i_should_see_user_name_in_on_top_of_the_page(LoginSteps.java:57)\r\n\tat ✽.Then I should see user name in on top of the page(LoginShop.feature:29)\r\n",
   "status": "failed"
 });
 formatter.after({
-  "duration": 1648488250,
+  "duration": 1608917011,
   "status": "passed"
 });
 formatter.uri("TShirtShop.feature");
@@ -584,7 +584,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 10554111173,
+  "duration": 11035725149,
   "status": "passed"
 });
 formatter.scenario({
@@ -614,25 +614,25 @@ formatter.match({
   "location": "LoginSteps.i_ensure_home_page_open()"
 });
 formatter.result({
-  "duration": 131303080,
+  "duration": 139388078,
   "status": "passed"
 });
 formatter.match({
   "location": "TShirtsSteps.i_click_on_TShirt_tab()"
 });
 formatter.result({
-  "duration": 1815593457,
+  "duration": 1880834682,
   "status": "passed"
 });
 formatter.match({
   "location": "TShirtsSteps.tshirt_page_should_be_displayed()"
 });
 formatter.result({
-  "duration": 54619692,
+  "duration": 45834897,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1404701989,
+  "duration": 1447373332,
   "status": "passed"
 });
 formatter.uri("WomenShop.feature");
@@ -718,7 +718,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 10403718073,
+  "duration": 11711819493,
   "status": "passed"
 });
 formatter.scenario({
@@ -748,25 +748,25 @@ formatter.match({
   "location": "LoginSteps.i_ensure_home_page_open()"
 });
 formatter.result({
-  "duration": 127930520,
+  "duration": 165692548,
   "status": "passed"
 });
 formatter.match({
   "location": "WomenSteps.i_click_on_women_tab()"
 });
 formatter.result({
-  "duration": 2171246144,
+  "duration": 1695613107,
   "status": "passed"
 });
 formatter.match({
   "location": "WomenSteps.women_page_should_be_displayed()"
 });
 formatter.result({
-  "duration": 62011424,
+  "duration": 43643596,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1394750863,
+  "duration": 1420103141,
   "status": "passed"
 });
 });
