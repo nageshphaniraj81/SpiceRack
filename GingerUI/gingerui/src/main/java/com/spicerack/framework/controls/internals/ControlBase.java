@@ -15,19 +15,25 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.internal.Coordinates;
 
 /**
- * @author Nagesh Phaniraj
+ * The Class ControlBase.
  *
+ * @author Nagesh Phaniraj
  */
 public class ControlBase implements Control {
 	
+	/** The element. */
 	private final WebElement element;
 	
 	/**
+	 * Instantiates a new control base.
+	 *
 	 * @param element
+	 *            the element
 	 */
 	public ControlBase(WebElement element) {
 		this.element = element;
 	}
+
 
 	/* (non-Javadoc)
 	 * @see org.openqa.selenium.WebElement#clear()
@@ -37,6 +43,7 @@ public class ControlBase implements Control {
 		element.clear();
 	}
 
+
 	/* (non-Javadoc)
 	 * @see org.openqa.selenium.WebElement#click()
 	 */
@@ -44,6 +51,7 @@ public class ControlBase implements Control {
 	public void click() {
 		element.click();
 	}
+
 
 	/* (non-Javadoc)
 	 * @see org.openqa.selenium.WebElement#findElement(org.openqa.selenium.By)
@@ -53,6 +61,7 @@ public class ControlBase implements Control {
 		return element.findElement(arg0);
 	}
 
+
 	/* (non-Javadoc)
 	 * @see org.openqa.selenium.WebElement#findElements(org.openqa.selenium.By)
 	 */
@@ -60,6 +69,7 @@ public class ControlBase implements Control {
 	public List<WebElement> findElements(By arg0) {
 		return element.findElements(arg0);
 	}
+
 
 	/* (non-Javadoc)
 	 * @see org.openqa.selenium.WebElement#getAttribute(java.lang.String)
@@ -69,6 +79,7 @@ public class ControlBase implements Control {
 		return element.getAttribute(arg0);
 	}
 
+
 	/* (non-Javadoc)
 	 * @see org.openqa.selenium.WebElement#getCssValue(java.lang.String)
 	 */
@@ -76,6 +87,7 @@ public class ControlBase implements Control {
 	public String getCssValue(String arg0) {
 		return element.getCssValue(arg0);
 	}
+
 
 	/* (non-Javadoc)
 	 * @see org.openqa.selenium.WebElement#getLocation()
@@ -85,6 +97,7 @@ public class ControlBase implements Control {
 		return element.getLocation();
 	}
 
+
 	/* (non-Javadoc)
 	 * @see org.openqa.selenium.WebElement#getRect()
 	 */
@@ -92,6 +105,7 @@ public class ControlBase implements Control {
 	public Rectangle getRect() {
 		return element.getRect();
 	}
+
 
 	/* (non-Javadoc)
 	 * @see org.openqa.selenium.WebElement#getSize()
@@ -101,6 +115,7 @@ public class ControlBase implements Control {
 		return element.getSize();
 	}
 
+
 	/* (non-Javadoc)
 	 * @see org.openqa.selenium.WebElement#getTagName()
 	 */
@@ -108,6 +123,7 @@ public class ControlBase implements Control {
 	public String getTagName() {
 		return element.getTagName();
 	}
+
 
 	/* (non-Javadoc)
 	 * @see org.openqa.selenium.WebElement#getText()
@@ -117,6 +133,7 @@ public class ControlBase implements Control {
 		return element.getText();
 	}
 
+
 	/* (non-Javadoc)
 	 * @see org.openqa.selenium.WebElement#isDisplayed()
 	 */
@@ -124,6 +141,7 @@ public class ControlBase implements Control {
 	public boolean isDisplayed() {
 		return element.isDisplayed();
 	}
+
 
 	/* (non-Javadoc)
 	 * @see org.openqa.selenium.WebElement#isEnabled()
@@ -133,6 +151,7 @@ public class ControlBase implements Control {
 		return element.isEnabled();
 	}
 
+
 	/* (non-Javadoc)
 	 * @see org.openqa.selenium.WebElement#isSelected()
 	 */
@@ -140,6 +159,7 @@ public class ControlBase implements Control {
 	public boolean isSelected() {
 		return element.isSelected();
 	}
+
 
 	/* (non-Javadoc)
 	 * @see org.openqa.selenium.WebElement#sendKeys(java.lang.CharSequence[])
@@ -149,6 +169,7 @@ public class ControlBase implements Control {
 		element.sendKeys(charSequences);
 	}
 
+
 	/* (non-Javadoc)
 	 * @see org.openqa.selenium.WebElement#submit()
 	 */
@@ -156,6 +177,7 @@ public class ControlBase implements Control {
 	public void submit() {
 		element.submit();
 	}
+
 
 	/* (non-Javadoc)
 	 * @see org.openqa.selenium.TakesScreenshot#getScreenshotAs(org.openqa.selenium.OutputType)
@@ -165,6 +187,7 @@ public class ControlBase implements Control {
 		return element.getScreenshotAs(arg0);
 	}
 
+
 	/* (non-Javadoc)
 	 * @see org.openqa.selenium.internal.WrapsElement#getWrappedElement()
 	 */
@@ -172,6 +195,7 @@ public class ControlBase implements Control {
 	public WebElement getWrappedElement() {
 		return element;
 	}
+
 
 	/* (non-Javadoc)
 	 * @see org.openqa.selenium.internal.Locatable#getCoordinates()

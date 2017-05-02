@@ -7,27 +7,35 @@ import org.openqa.selenium.WebElement;
 import com.spicerack.framework.controls.internals.ControlBase;
 
 /**
- * @author Nagesh Phaniraj
+ * The Class ButtonBase.
  *
+ * @author Nagesh Phaniraj
  */
 public class ButtonBase extends ControlBase implements Button {
 
 	/**
+	 * Instantiates a new button base.
+	 *
 	 * @param element
+	 *            the element
 	 */
 	public ButtonBase(WebElement element) {
 		super(element);
 	}
 
-	/* (non-Javadoc)
+	/*
+	 * (non-Javadoc)
+	 * 
 	 * @see com.spicerack.framework.controls.elements.Button#performClick()
 	 */
 	@Override
 	public void performClick() {
-		getWrappedElement().click();	
+		getWrappedElement().click();
 	}
 
-	/* (non-Javadoc)
+	/*
+	 * (non-Javadoc)
+	 * 
 	 * @see com.spicerack.framework.controls.elements.Button#getButtonText()
 	 */
 	@Override
@@ -35,7 +43,9 @@ public class ButtonBase extends ControlBase implements Button {
 		return getWrappedElement().getText();
 	}
 
-	/* (non-Javadoc)
+	/*
+	 * (non-Javadoc)
+	 * 
 	 * @see com.spicerack.framework.controls.elements.Button#performSubmit()
 	 */
 	@Override

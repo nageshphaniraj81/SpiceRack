@@ -1,3 +1,6 @@
+/*
+ * 
+ */
 package com.spicerack.framework.frameworkutilities;
 
 import java.util.ArrayList;
@@ -6,14 +9,35 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+/**
+ * The Class GenericHelper. There are some useful methods that can be used from
+ * the class to generate web elements by passing locator and type
+ */
 public class GenericHelper {
 
+	/** The driver. */
 	WebDriver driver;
 
+	/**
+	 * Instantiates a new generic helper.
+	 *
+	 * @param driver
+	 *            the driver
+	 */
 	public GenericHelper(WebDriver driver) {
 		this.driver = driver;
 	}
 
+	/**
+	 * Gets the element.
+	 *
+	 * @param locator
+	 *            the locator string used to identify objects
+	 * @param type
+	 *            the type can be id,name,xpath,css,classname,tagname linktext
+	 *            and partial link text
+	 * @return the element
+	 */
 	public WebElement getElement(String locator, String type) {
 		type = type.toLowerCase();
 		if (type.equals("id")) {
@@ -46,6 +70,16 @@ public class GenericHelper {
 		}
 	}
 
+	/**
+	 * Gets the element list.
+	 *
+	 * @param locator
+	 *            the locator
+	 * @param type
+	 *            the type can be id,name,xpath,css,classname,tagname linktext
+	 *            and partial link text
+	 * @return the element list
+	 */
 	public List<WebElement> getElementList(String locator, String type) {
 		type = type.toLowerCase();
 		List<WebElement> elementList = new ArrayList<WebElement>();
@@ -77,6 +111,16 @@ public class GenericHelper {
 		return elementList;
 	}
 
+	/**
+	 * Checks if is element present.
+	 *
+	 * @param locator
+	 *            the locator
+	 * @param type
+	 *            the type can be id,name,xpath,css,classname,tagname linktext
+	 *            and partial link text
+	 * @return true, if is element present
+	 */
 	public boolean isElementPresent(String locator, String type) {
 		List<WebElement> elementList = getElementList(locator, type);
 		if (elementList.size() > 0) {

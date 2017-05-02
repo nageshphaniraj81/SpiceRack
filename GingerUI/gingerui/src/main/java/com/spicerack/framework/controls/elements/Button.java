@@ -7,14 +7,28 @@ import com.spicerack.framework.controls.api.ImplementedBy;
 import com.spicerack.framework.controls.internals.Control;
 
 /**
- * @author Nagesh Phaniraj
+ * The Interface Button.
  *
+ * @author Nagesh Phaniraj
  */
 @ImplementedBy(ButtonBase.class)
-public interface Button extends Control{
-	
+public interface Button extends Control {
+
+	/**
+	 * Perform click.
+	 */
 	void performClick();
+
+	/**
+	 * Gets the button text.
+	 *
+	 * @return the button text
+	 */
 	String getButtonText();
+
+	/**
+	 * Perform submit.
+	 */
 	void performSubmit();
 
 }

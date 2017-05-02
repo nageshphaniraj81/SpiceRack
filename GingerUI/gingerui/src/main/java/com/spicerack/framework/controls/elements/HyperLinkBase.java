@@ -1,35 +1,62 @@
+/*
+ * 
+ */
 package com.spicerack.framework.controls.elements;
-
 
 import org.openqa.selenium.WebElement;
 
 import com.spicerack.framework.controls.internals.ControlBase;
 
 /**
- * @author Nagesh Phaniraj
+ * The Class HyperLinkBase.
  *
+ * @author Nagesh Phaniraj
  */
 
 public class HyperLinkBase extends ControlBase implements HyperLink {
-    public HyperLinkBase(WebElement element) {
-        super(element);
-    }
 
-    @Override
-    public void ClickLink() {
-        getWrappedElement().click();
-    }
+	/**
+	 * Instantiates a new hyper link base.
+	 *
+	 * @param element
+	 *            the element
+	 */
+	public HyperLinkBase(WebElement element) {
+		super(element);
+	}
 
-    @Override
-    public String GetUrlText() {
-        return getWrappedElement().getText();
-    }
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see com.spicerack.framework.controls.elements.HyperLink#ClickLink()
+	 */
+	@Override
+	public void ClickLink() {
+		getWrappedElement().click();
+	}
 
-    @Override
-    public boolean CheckUrlTextContains(String containsText) {
-        if (getWrappedElement().getText().contains(containsText))
-            return true;
-        else
-            return false;
-    }
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see com.spicerack.framework.controls.elements.HyperLink#GetUrlText()
+	 */
+	@Override
+	public String GetUrlText() {
+		return getWrappedElement().getText();
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see
+	 * com.spicerack.framework.controls.elements.HyperLink#CheckUrlTextContains(
+	 * java.lang.String)
+	 */
+	@Override
+	public boolean CheckUrlTextContains(String containsText) {
+		if (getWrappedElement().getText().contains(containsText))
+			return true;
+		else
+			return false;
+	}
 }

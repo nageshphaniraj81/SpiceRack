@@ -1,0 +1,57 @@
+/*
+ * 
+ */
+package com.spicerack.framework.configuration;
+
+import com.spicerack.framework.frameworkutilities.LogUtil;
+import com.spicerack.framework.initialization.BrowserType;
+
+// TODO: Auto-generated Javadoc
+/**
+ * The Class Settings.
+ */
+public class Settings {
+	
+	/** The Database URL. */
+	// For database connectivity
+	public static String DatabaseURL;
+	
+	/** The Database username. */
+	public static String DatabaseUsername;
+	
+	/** The Database password. */
+	public static String DatabasePassword;
+	
+	/** The Database driver. */
+	public static String DatabaseDriver;
+	
+	/** The Log folder. */
+	// For logging the teest
+	public static String LogFolder;
+	
+	/** The Extent report path. */
+	//For Extent report
+	public static String ExtentReportPath;
+	
+	/** The Screenshot folder. */
+	// Screenshot for reporting
+	public static String ScreenshotFolder;
+	
+	/** The Excel data sheet path. */
+	//For data driven testing
+	public static String ExcelDataSheetPath;
+	
+	/** The Base URL. */
+	// URL for AUT
+	public static String BaseURL;
+    
+    /** The Browser. */
+    // Browser
+	public static BrowserType Browser;
+	
+	/** The Logs. */
+	// Log Utility
+	public static LogUtil Logs;
+	
+
+}

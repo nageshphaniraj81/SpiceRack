@@ -10,26 +10,37 @@ import org.openqa.selenium.support.How;
 
 import com.spicerack.framework.frameworkutilities.SyncronizationHelper;
 import com.spicerack.framework.initialization.BasePage;
-import com.spicerack.framework.initialization.DriverContext;
 
+// TODO: Auto-generated Javadoc
 /**
- * @author Nagesh Phaniraj
+ * The Class MyStoreDressesPage.
  *
+ * @author Nagesh Phaniraj
  */
 public class MyStoreDressesPage extends BasePage{
+	
+	/**
+	 * Instantiates a new my store dresses page.
+	 */
 	public MyStoreDressesPage() {
 		super();
 	}
 
-	@FindBy(how = How.XPATH, using = ".//div[@id='center_column']/h1/span[contains(@class,'cat-name') and contains(text(),'Dresses')]")
+	/** The txt title. */
+	@FindBy(how = How.XPATH, using = "//div[@id='center_column']/h1/span[contains(@class,'cat-name') and contains(text(),'Dresses')]")
 	public WebElement txtTitle;
 	
-	@FindBy(how = How.XPATH, using = ".//*[@id='block_top_menu']/ul/li/*[contains(@title,'Dresses') and contains(@class,'sf-with-ul')]")
+	/** The tab dresses. */
+	@FindBy(how = How.XPATH, using = "//div[@id='block_top_menu']/ul/li/*[contains(@title,'Dresses') and contains(@class,'sf-with-ul')]")
 	public WebElement tabDresses;
 	
-	public void switchToDressesTab() {
+	/**
+	 * Switch to dresses tab.
+	 * @throws InterruptedException 
+	 */
+	public void switchToDressesTab() throws InterruptedException {
 		
-	
+		Thread.sleep(2000);
 		if(tabDresses.isDisplayed()){
 			tabDresses.click();
 		}else{
@@ -38,15 +49,24 @@ public class MyStoreDressesPage extends BasePage{
 	
 	}
 	
+	/**
+	 * Wait till page load.
+	 */
 	public void waitTillPageLoad(){
 		
-		SyncronizationHelper sync = new SyncronizationHelper(DriverContext.Driver);
-		sync.waitForElement(By.xpath(".//div[@id='center_column']/h1/span[contains(@class,'cat-name') and contains(text(),'Dresses')]"), 10);
+		SyncronizationHelper sync = new SyncronizationHelper();
+		sync.waitForElement(By.xpath("//div[@id='center_column']/h1/span[contains(@class,'cat-name') and contains(text(),'Dresses')]"), 10);
 		
 		}
 
-	public boolean isTitleDisplayed() {
-
+	/**
+	 * Checks if is title displayed.
+	 *
+	 * @return true, if is title displayed
+	 * @throws InterruptedException 
+	 */
+	public boolean isTitleDisplayed() throws InterruptedException {
+		Thread.sleep(2000);
 		if (txtTitle.isDisplayed()) {
 			System.out.println("Title of the text is displayed");
 			return true;

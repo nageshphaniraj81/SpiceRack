@@ -21,12 +21,20 @@ import com.normal.tests.pages.MyStoreLoginPage;
 import com.normal.tests.pages.MyStoreTShirtPage;
 import com.normal.tests.pages.MyStoreWomenPage;
 
+// TODO: Auto-generated Javadoc
 /**
- * @author Nagesh Phaniraj
+ * The Class SampleShoppingTest.
  *
+ * @author Nagesh Phaniraj
  */
 public class SampleShoppingTest extends InitializeTestCase {
 
+	/**
+	 * Test sign in.
+	 *
+	 * @throws InterruptedException
+	 *             the interrupted exception
+	 */
 	@Test
 	public void testSignIn() throws InterruptedException {
 
@@ -47,8 +55,12 @@ public class SampleShoppingTest extends InitializeTestCase {
 		report.logPass("Logged into the website");
 	}
 
+	/**
+	 * Test women page.
+	 * @throws InterruptedException 
+	 */
 	@Test(dependsOnMethods = "testSignIn")
-	public void testWomenPage() {
+	public void testWomenPage() throws InterruptedException {
 
 		// Get instance of Page
 		CurrentPage = GetInstance(MyStoreWomenPage.class);
@@ -63,8 +75,12 @@ public class SampleShoppingTest extends InitializeTestCase {
 	    Settings.Logs.Write("Woment page is displayed");
 	}
 
+	/**
+	 * Test dresses page.
+	 * @throws InterruptedException 
+	 */
 	@Test(dependsOnMethods = "testSignIn")
-	public void testDressesPage() {
+	public void testDressesPage() throws InterruptedException {
 
 		// Get instance of Page
 		CurrentPage = GetInstance(MyStoreDressesPage.class);
@@ -80,8 +96,12 @@ public class SampleShoppingTest extends InitializeTestCase {
 
 	}
 
+	/**
+	 * Test T shirt page.
+	 * @throws InterruptedException 
+	 */
 	@Test(dependsOnMethods = "testSignIn")
-	public void testTShirtPage() {
+	public void testTShirtPage() throws InterruptedException {
 
 		// Get instance of Page
 		CurrentPage = GetInstance(MyStoreTShirtPage.class);
@@ -97,12 +117,26 @@ public class SampleShoppingTest extends InitializeTestCase {
 
 	}
 	
+	/**
+	 * Tear down.
+	 *
+	 * @param testResult
+	 *            the test result
+	 * @throws IOException
+	 *             Signals that an I/O exception has occurred.
+	 */
 	@AfterMethod
 	public void tearDown(ITestResult testResult) throws IOException {
 	report.takeScreenshotOnFailure(testResult);
 
 	}
 
+	/**
+	 * Clean up.
+	 *
+	 * @throws InterruptedException
+	 *             the interrupted exception
+	 */
 	@AfterTest
 	public void cleanUp() throws InterruptedException {
 

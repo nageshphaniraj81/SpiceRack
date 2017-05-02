@@ -8,26 +8,31 @@ import java.util.Set;
 import com.spicerack.framework.initialization.DriverContext;
 
 /**
- * @author Nagesh Phaniraj
+ * The Class WindowBase.
  *
+ * @author Nagesh Phaniraj
  */
 public class WindowBase implements Window {
 
 	/**
-	 * @param element
+	 * Instantiates a new window base.
 	 */
 	public WindowBase() {
 	}
 
-	/* (non-Javadoc)
+	/*
+	 * (non-Javadoc)
+	 * 
 	 * @see com.spicerack.framework.controls.elements.Window#getWindowHandle()
 	 */
 	@Override
-	public String getWindowHandle() {	
+	public String getWindowHandle() {
 		return DriverContext.Driver.getWindowHandle();
 	}
 
-	/* (non-Javadoc)
+	/*
+	 * (non-Javadoc)
+	 * 
 	 * @see com.spicerack.framework.controls.elements.Window#getWindowHandles()
 	 */
 	@Override
@@ -35,8 +40,12 @@ public class WindowBase implements Window {
 		return DriverContext.Driver.getWindowHandles();
 	}
 
-	/* (non-Javadoc)
-	 * @see com.spicerack.framework.controls.elements.Window#switchToWindow(java.lang.String)
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see
+	 * com.spicerack.framework.controls.elements.Window#switchToWindow(java.lang
+	 * .String)
 	 */
 	@Override
 	public void switchToWindow(String handleToSwitch) {

@@ -19,16 +19,27 @@ import com.spicerack.framework.initialization.InitilizeFramework;
 
 import jxl.read.biff.BiffException;
 
+// TODO: Auto-generated Javadoc
 /**
- * @author Nagesh Phaniraj
+ * The Class InitializeTestCase.
  *
+ * @author Nagesh Phaniraj
  */
 public class InitializeTestCase extends InitilizeFramework {
 	
+	/** The Constant logger. */
 	// URL of the page to be navigated
     static final Logger logger = LogManager.getLogger(SampleShoppingTest.class);
+    
+    /** The report. */
     public static ReportingUtil report;
 	
+	/**
+	 * Initialize.
+	 *
+	 * @throws IOException
+	 *             Signals that an I/O exception has occurred.
+	 */
 	@BeforeTest
 	public void initialize() throws IOException {
 		
@@ -37,7 +48,6 @@ public class InitializeTestCase extends InitilizeFramework {
 
 		// Logging code using logUtil (Framework) & Log4j
 		Settings.Logs = new LogUtil();
-		Settings.Logs.CreateLogFile();
 		Settings.Logs.Write("Framework Initilize");
 		
 		//Log4j Logger

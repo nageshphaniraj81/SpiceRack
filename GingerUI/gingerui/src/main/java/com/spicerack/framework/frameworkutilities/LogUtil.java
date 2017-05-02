@@ -1,3 +1,6 @@
+/*
+ * 
+ */
 package com.spicerack.framework.frameworkutilities;
 
 import java.io.BufferedWriter;
@@ -10,22 +13,41 @@ import java.time.format.DateTimeFormatter;
 import com.spicerack.framework.configuration.ConfigReader;
 import com.spicerack.framework.configuration.Settings;
 
+/**
+ * The Class LogUtil used to generate userdefined logs 
+ */
 public class LogUtil {
 
+	/** The date. */
 	// File format for the log file
 	ZonedDateTime date = ZonedDateTime.now();
+	
+	/** The formatter. */
 	DateTimeFormatter formatter = DateTimeFormatter.ofPattern("ddMMyyyyHHMMSS");
+	
+	/** The file name format. */
 	String fileNameFormat = date.format(formatter);
+    
+    /** The buffered writter. */
     private BufferedWriter bufferedWritter = null;
     
+    /**
+	 * Instantiates a new log util.
+	 *
+	 * @throws IOException
+	 *             Signals that an I/O exception has occurred.
+	 */
     public LogUtil() throws IOException{
     	
     	// Initializing configuration Settings
 		ConfigReader.populateSetting();
     }
 
-	// Create a log file
-	public void CreateLogFile() {
+	/**
+	 * Creates the log file in the location specified in
+	 *  Global Configuration properties file.
+	 */
+	private void CreateLogFile() {
 		try {
 			File dir = new File(Settings.LogFolder);
 			if (!dir.exists())
@@ -38,8 +60,14 @@ public class LogUtil {
 		}
 	}
 
-	// Write message within the log
+	/**
+	 * To write the log message in the log.
+	 *
+	 * @param message
+	 *            the message
+	 */
 	public void Write(String message) {
+		 CreateLogFile();
 		try {
 			formatter = DateTimeFormatter.ofPattern("dd-MM-yy:HH_MM_SS");
 			String dateFormat = date.format(formatter);

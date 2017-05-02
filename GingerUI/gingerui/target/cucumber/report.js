@@ -3,7 +3,7 @@ formatter.feature({
   "comments": [
     {
       "line": 1,
-      "value": "#Author: your.email@your.domain.com"
+      "value": "#Author: nageshphaniraj2017@gmail.com"
     },
     {
       "line": 2,
@@ -81,7 +81,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 12327239027,
+  "duration": 11457414966,
   "status": "passed"
 });
 formatter.scenario({
@@ -136,60 +136,60 @@ formatter.match({
   "location": "LoginSteps.i_ensure_home_page_open()"
 });
 formatter.result({
-  "duration": 331687408,
+  "duration": 323049570,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactusSteps.i_click_on_Contact_Us_link()"
 });
 formatter.result({
-  "duration": 6056727950,
+  "duration": 6050921494,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactusSteps.customer_Service_Contact_us_page_should_be_displayed()"
 });
 formatter.result({
-  "duration": 74695028,
+  "duration": 85617474,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactusSteps.i_select_Subject_Heading()"
 });
 formatter.result({
-  "duration": 2286149226,
+  "duration": 2301053522,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactusSteps.enter_Email_ID()"
 });
 formatter.result({
-  "duration": 4129954336,
+  "duration": 4129381434,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactusSteps.enter_Test_Message()"
 });
 formatter.result({
-  "duration": 4124527637,
+  "duration": 4149012632,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactusSteps.click_on_Send_Link()"
 });
 formatter.result({
-  "duration": 4565249156,
+  "duration": 4597236451,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactusSteps.i_see_confirmation_message_on_the_screen()"
 });
 formatter.result({
-  "duration": 2109714781,
+  "duration": 2110503687,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1538181440,
+  "duration": 1683897091,
   "status": "passed"
 });
 formatter.uri("DressesShop.feature");
@@ -275,7 +275,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 11691124137,
+  "duration": 11971557414,
   "status": "passed"
 });
 formatter.scenario({
@@ -305,25 +305,25 @@ formatter.match({
   "location": "LoginSteps.i_ensure_home_page_open()"
 });
 formatter.result({
-  "duration": 174956939,
+  "duration": 134377992,
   "status": "passed"
 });
 formatter.match({
   "location": "DressesSteps.i_click_on_Dresses_tab()"
 });
 formatter.result({
-  "duration": 1740445892,
+  "duration": 4345669371,
   "status": "passed"
 });
 formatter.match({
   "location": "DressesSteps.dresses_page_should_be_displayed()"
 });
 formatter.result({
-  "duration": 508914958,
+  "duration": 2073983567,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1415085590,
+  "duration": 1470462464,
   "status": "passed"
 });
 formatter.uri("LoginShop.feature");
@@ -409,7 +409,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 11088985834,
+  "duration": 11216416232,
   "status": "passed"
 });
 formatter.scenario({
@@ -465,40 +465,39 @@ formatter.match({
   "location": "LoginSteps.i_ensure_home_page_open()"
 });
 formatter.result({
-  "duration": 125556806,
+  "duration": 128982549,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.i_click_on_login_link()"
 });
 formatter.result({
-  "duration": 3038601786,
+  "duration": 3039056654,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.i_enter_username_and_password(DataTable)"
 });
 formatter.result({
-  "duration": 237655098,
+  "duration": 280731858,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.i_click_on_Login_button()"
 });
 formatter.result({
-  "duration": 3525149337,
+  "duration": 3482531645,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.i_should_see_user_name_in_on_top_of_the_page()"
 });
 formatter.result({
-  "duration": 45839095,
-  "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: .login\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.1.0\u0027, revision: \u0027b94c902\u0027, time: \u00272017-02-16 12:21:31 -0800\u0027\nSystem info: host: \u0027NAGESH\u0027, ip: \u002710.0.0.4\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_65\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{rotatable\u003dfalse, raisesAccessibilityExceptions\u003dfalse, marionette\u003dtrue, appBuildId\u003d20161019084923, version\u003d, platform\u003dXP, proxy\u003d{}, command_id\u003d1, specificationLevel\u003d0, acceptSslCerts\u003dfalse, processId\u003d16936, browserVersion\u003d49.0.2, platformVersion\u003d10.0, XULappId\u003d{ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName\u003dfirefox, takesScreenshot\u003dtrue, takesElementScreenshot\u003dtrue, platformName\u003dwindows_nt, device\u003ddesktop, firefox_profile\u003dUEsDBBQACAgIAMymokoAAAAAAAAAA...}]\nSession ID: bcb853bf-05af-4191-9df6-c97e45467b6e\n*** Element info: {Using\u003dclass name, value\u003dlogin}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:457)\r\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:391)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat com.spicerack.framework.controls.api.ControlHandler.invoke(ControlHandler.java:38)\r\n\tat com.sun.proxy.$Proxy23.isDisplayed(Unknown Source)\r\n\tat com.spicerack.framework.controls.internals.ControlBase.isDisplayed(ControlBase.java:125)\r\n\tat com.normal.tests.pages.MyStoreHomePage.isLoggedIn(MyStoreHomePage.java:66)\r\n\tat com.cucumber.bdd.stepdefinition.LoginSteps.i_should_see_user_name_in_on_top_of_the_page(LoginSteps.java:57)\r\n\tat ✽.Then I should see user name in on top of the page(LoginShop.feature:29)\r\n",
-  "status": "failed"
+  "duration": 73529165,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 1608917011,
+  "duration": 1427425360,
   "status": "passed"
 });
 formatter.uri("TShirtShop.feature");
@@ -584,7 +583,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 11035725149,
+  "duration": 11845512149,
   "status": "passed"
 });
 formatter.scenario({
@@ -614,25 +613,25 @@ formatter.match({
   "location": "LoginSteps.i_ensure_home_page_open()"
 });
 formatter.result({
-  "duration": 139388078,
+  "duration": 121093028,
   "status": "passed"
 });
 formatter.match({
   "location": "TShirtsSteps.i_click_on_TShirt_tab()"
 });
 formatter.result({
-  "duration": 1880834682,
+  "duration": 4115142880,
   "status": "passed"
 });
 formatter.match({
   "location": "TShirtsSteps.tshirt_page_should_be_displayed()"
 });
 formatter.result({
-  "duration": 45834897,
+  "duration": 2064815281,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1447373332,
+  "duration": 1418704478,
   "status": "passed"
 });
 formatter.uri("WomenShop.feature");
@@ -718,7 +717,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 11711819493,
+  "duration": 10949000595,
   "status": "passed"
 });
 formatter.scenario({
@@ -748,25 +747,25 @@ formatter.match({
   "location": "LoginSteps.i_ensure_home_page_open()"
 });
 formatter.result({
-  "duration": 165692548,
+  "duration": 178742845,
   "status": "passed"
 });
 formatter.match({
   "location": "WomenSteps.i_click_on_women_tab()"
 });
 formatter.result({
-  "duration": 1695613107,
+  "duration": 4478641702,
   "status": "passed"
 });
 formatter.match({
   "location": "WomenSteps.women_page_should_be_displayed()"
 });
 formatter.result({
-  "duration": 43643596,
+  "duration": 2066720598,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1420103141,
+  "duration": 1480792414,
   "status": "passed"
 });
 });

@@ -1,3 +1,6 @@
+/*
+ * 
+ */
 package com.spicerack.framework.frameworkutilities;
 
 import java.io.File;
@@ -8,13 +11,31 @@ import jxl.Sheet;
 import jxl.Workbook;
 import jxl.read.biff.BiffException;
 
+/**
+ * The Class ExcelUtil is used to retrieve data from excel File for Data Driven testing
+ */
 public class ExcelUtil {
 
+	/** The wrksheet. */
 	static Sheet wrksheet;
+	
+	/** The wrkbook. */
 	static Workbook wrkbook = null;
+	
+	/** The dict. */
 	@SuppressWarnings("rawtypes")
 	static Hashtable dict = new Hashtable();
 
+	/**
+	 * Instantiates a new excel util.
+	 *
+	 * @param ExcelSheetPath
+	 *            the excel sheet path
+	 * @throws BiffException
+	 *             the biff exception
+	 * @throws IOException
+	 *             Signals that an I/O exception has occurred.
+	 */
 	// Create a Constructor
 	public ExcelUtil(String ExcelSheetPath) throws BiffException, IOException {
 		// Initialize
@@ -29,20 +50,44 @@ public class ExcelUtil {
 
 	}
 
-	// Returns the Number of Rows
+	/**
+	 * Returns the Number of Rows.
+	 *
+	 * @return the int
+	 */
 	public static int RowCount() {
 		return wrksheet.getRows();
 	}
 
-	// Returns the Cell value by taking row and Column values as argument
+	/**
+	 *  Returns the Cell value by taking row and Column values as argument.
+	 *
+	 * @param column
+	 *            the column
+	 * @param row
+	 *            the row
+	 * @return the string
+	 */
 	private static String ReadCell(int column, int row) {
 		return wrksheet.getCell(column, row).getContents();
 	}
 	
+	/**
+	 * Read cell.
+	 *
+	 * @param columnName
+	 *            the column name
+	 * @param rowNumber
+	 *            the row number
+	 * @return the string
+	 */
 	public static String ReadCell(String columnName, int rowNumber){
 		return ReadCell(GetCell(columnName),rowNumber);
 	}
 
+	/**
+	 * Column dictionary.
+	 */
 	// Create Column Dictionary to hold all the Column Names
 	@SuppressWarnings("unchecked")
 	private static void ColumnDictionary() {
@@ -53,7 +98,13 @@ public class ExcelUtil {
 		}
 	}
 
-	// Read Column Names
+	/**
+	 * Read Column Names.
+	 *
+	 * @param colName
+	 *            the col name
+	 * @return the int
+	 */
 	public static int GetCell(String colName) {
 		try {
 			int value;

@@ -1,0 +1,65 @@
+/**
+ * 
+ */
+package com.spicerack.framework.controls.elements;
+
+import java.util.List;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
+
+import com.spicerack.framework.controls.internals.ControlBase;
+
+/**
+ * @author Nagesh Phaniraj
+ *
+ */
+public class DropdownBase extends ControlBase implements Dropdown{
+
+	Select sel;
+	/**
+	 * @param element
+	 */
+	public DropdownBase(WebElement element) {
+		super(element);
+	}
+
+
+	@Override
+	public void selectItemByIndex(int index) {
+		sel = new Select(getWrappedElement());	
+		sel.selectByIndex(index);
+	}
+
+
+	@Override
+	public void selectItemByValue(String value) {
+		sel = new Select(getWrappedElement());	
+		sel.selectByValue(value);
+		
+	}
+
+
+	@Override
+	public void selectItemByVisibleText(String visibleText) {
+		sel = new Select(getWrappedElement());	
+		sel.selectByVisibleText(visibleText);
+	}
+
+
+	@SuppressWarnings("rawtypes")
+	@Override
+	public List getAllOptions() {
+		sel = new Select(getWrappedElement());
+		return sel.getOptions();
+	}
+
+
+	@Override
+	public String getSelectedOptionValue() {
+		sel = new Select(getWrappedElement());
+		String selectedOption = sel.getFirstSelectedOption().getText();
+		return selectedOption;
+	}
+
+}
