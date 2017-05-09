@@ -1,27 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item value="false" key="isRegEx"/>
-		<item value="Quincy" key="selection"/>
+		<item value="true" key="isRegEx"/>
+		<item value="" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="\s\/\s*\* \(non-Javadoc\)\s*\* @see \S+\s*\*\/"/>
+			<item value="DriverContext\.Driver\.switchTo\(\)"/>
+			<item value="\*\/\s*\* \(non-Javadoc\)\s*\* @see \S+\s*\*\/"/>
+			<item value="\s*\/\s*\* \(non-Javadoc\)\s*\* @see \S+\s*\*\/"/>
+			<item value="\s*/\*\s*\* \(non-Javadoc\)\s*\* @see \S+\s*\*/"/>
+			<item value="/**"/>
 			<item value="Women"/>
 			<item value="TShirt"/>
 		</list>
 		<list key="replacehistory">
+			<item value=""/>
 			<item value="Quincy"/>
 			<item value="Dresses"/>
 			<item value="TShirt"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item value="257" key="DIALOG_WIDTH"/>
+		<item value="729" key="DIALOG_WIDTH"/>
 		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
-		<item value="381" key="DIALOG_HEIGHT"/>
-		<item value="563" key="DIALOG_X_ORIGIN"/>
-		<item value="123" key="DIALOG_Y_ORIGIN"/>
+		<item value="352" key="DIALOG_HEIGHT"/>
+		<item value="573" key="DIALOG_X_ORIGIN"/>
+		<item value="249" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

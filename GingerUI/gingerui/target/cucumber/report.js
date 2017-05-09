@@ -81,7 +81,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 11457414966,
+  "duration": 11606956094,
   "status": "passed"
 });
 formatter.scenario({
@@ -136,60 +136,60 @@ formatter.match({
   "location": "LoginSteps.i_ensure_home_page_open()"
 });
 formatter.result({
-  "duration": 323049570,
+  "duration": 515461589,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactusSteps.i_click_on_Contact_Us_link()"
 });
 formatter.result({
-  "duration": 6050921494,
+  "duration": 6060935220,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactusSteps.customer_Service_Contact_us_page_should_be_displayed()"
 });
 formatter.result({
-  "duration": 85617474,
+  "duration": 61461470,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactusSteps.i_select_Subject_Heading()"
 });
 formatter.result({
-  "duration": 2301053522,
+  "duration": 2330209897,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactusSteps.enter_Email_ID()"
 });
 formatter.result({
-  "duration": 4129381434,
+  "duration": 4153618450,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactusSteps.enter_Test_Message()"
 });
 formatter.result({
-  "duration": 4149012632,
+  "duration": 4152066763,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactusSteps.click_on_Send_Link()"
 });
 formatter.result({
-  "duration": 4597236451,
+  "duration": 4579526777,
   "status": "passed"
 });
 formatter.match({
   "location": "ContactusSteps.i_see_confirmation_message_on_the_screen()"
 });
 formatter.result({
-  "duration": 2110503687,
+  "duration": 2080117175,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1683897091,
+  "duration": 1452891172,
   "status": "passed"
 });
 formatter.uri("DressesShop.feature");
@@ -275,7 +275,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 11971557414,
+  "duration": 12514647490,
   "status": "passed"
 });
 formatter.scenario({
@@ -305,25 +305,25 @@ formatter.match({
   "location": "LoginSteps.i_ensure_home_page_open()"
 });
 formatter.result({
-  "duration": 134377992,
+  "duration": 141127506,
   "status": "passed"
 });
 formatter.match({
   "location": "DressesSteps.i_click_on_Dresses_tab()"
 });
 formatter.result({
-  "duration": 4345669371,
+  "duration": 4867800528,
   "status": "passed"
 });
 formatter.match({
   "location": "DressesSteps.dresses_page_should_be_displayed()"
 });
 formatter.result({
-  "duration": 2073983567,
+  "duration": 2063029485,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1470462464,
+  "duration": 1419188392,
   "status": "passed"
 });
 formatter.uri("LoginShop.feature");
@@ -409,7 +409,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 11216416232,
+  "duration": 11517323055,
   "status": "passed"
 });
 formatter.scenario({
@@ -465,39 +465,39 @@ formatter.match({
   "location": "LoginSteps.i_ensure_home_page_open()"
 });
 formatter.result({
-  "duration": 128982549,
+  "duration": 143301548,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.i_click_on_login_link()"
 });
 formatter.result({
-  "duration": 3039056654,
+  "duration": 3049646065,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.i_enter_username_and_password(DataTable)"
 });
 formatter.result({
-  "duration": 280731858,
+  "duration": 239153933,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.i_click_on_Login_button()"
 });
 formatter.result({
-  "duration": 3482531645,
+  "duration": 3483523236,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.i_should_see_user_name_in_on_top_of_the_page()"
 });
 formatter.result({
-  "duration": 73529165,
+  "duration": 38410560,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1427425360,
+  "duration": 1482934938,
   "status": "passed"
 });
 formatter.uri("TShirtShop.feature");
@@ -583,7 +583,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 11845512149,
+  "duration": 12290472052,
   "status": "passed"
 });
 formatter.scenario({
@@ -613,25 +613,25 @@ formatter.match({
   "location": "LoginSteps.i_ensure_home_page_open()"
 });
 formatter.result({
-  "duration": 121093028,
+  "duration": 123909188,
   "status": "passed"
 });
 formatter.match({
   "location": "TShirtsSteps.i_click_on_TShirt_tab()"
 });
 formatter.result({
-  "duration": 4115142880,
+  "duration": 7916384298,
   "status": "passed"
 });
 formatter.match({
   "location": "TShirtsSteps.tshirt_page_should_be_displayed()"
 });
 formatter.result({
-  "duration": 2064815281,
+  "duration": 2053270090,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1418704478,
+  "duration": 1416968163,
   "status": "passed"
 });
 formatter.uri("WomenShop.feature");
@@ -717,7 +717,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 10949000595,
+  "duration": 12732677762,
   "status": "passed"
 });
 formatter.scenario({
@@ -747,25 +747,25 @@ formatter.match({
   "location": "LoginSteps.i_ensure_home_page_open()"
 });
 formatter.result({
-  "duration": 178742845,
+  "duration": 134137915,
   "status": "passed"
 });
 formatter.match({
   "location": "WomenSteps.i_click_on_women_tab()"
 });
 formatter.result({
-  "duration": 4478641702,
+  "duration": 7747518629,
   "status": "passed"
 });
 formatter.match({
   "location": "WomenSteps.women_page_should_be_displayed()"
 });
 formatter.result({
-  "duration": 2066720598,
+  "duration": 2042434870,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1480792414,
+  "duration": 1383733315,
   "status": "passed"
 });
 });

@@ -39,7 +39,7 @@ public class MyStoreWomenPage extends BasePage {
 	 * @throws InterruptedException 
 	 */
 	public void switchToWomenTab() throws InterruptedException{
-		Thread.sleep(2000);
+		Thread.sleep(4000);
 		if(tabWomen.isDisplayed()){
 		tabWomen.click();
 		}else{

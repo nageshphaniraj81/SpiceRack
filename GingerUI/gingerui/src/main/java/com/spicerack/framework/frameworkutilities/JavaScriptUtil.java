@@ -37,24 +37,6 @@ public class JavaScriptUtil {
 	}
 	
 	/**
-	 * Gets the window height.
-	 *
-	 * @return the window height
-	 */
-	public long getWindowHeight(){
-	  return (long)js.executeScript("return window.innerHeight;");
-	}
-	
-	/**
-	 * Gets the window width.
-	 *
-	 * @return the window width
-	 */
-	public long getWindowWidth(){
-	  return (long)js.executeScript("return window.innerWidth;");
-	}
-	
-	/**
 	 * Scroll up.
 	 *
 	 * @param pixels

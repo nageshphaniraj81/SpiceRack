@@ -31,7 +31,7 @@ public class MyStoreDressesPage extends BasePage{
 	public WebElement txtTitle;
 	
 	/** The tab dresses. */
-	@FindBy(how = How.XPATH, using = "//div[@id='block_top_menu']/ul/li/*[contains(@title,'Dresses') and contains(@class,'sf-with-ul')]")
+	@FindBy(how = How.XPATH, using = ".//div[@id='block_top_menu']/ul/li/*[contains(@title,'Dresses')]")
 	public WebElement tabDresses;
 	
 	/**

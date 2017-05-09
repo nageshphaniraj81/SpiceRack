@@ -40,7 +40,7 @@ public class MyStoreTShirtPage extends BasePage{
 	 */
 	public void switchToTShirtsTab() throws InterruptedException{
 		
-	    Thread.sleep(2000);
+	    Thread.sleep(5000);
 		if(tabTShirts.isDisplayed()){
 			tabTShirts.click();
 		}else{
