@@ -1,0 +1,45 @@
+package com.restassured.apitests;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.AfterClass;
+
+import com.jayway.restassured.http.ContentType;
+import com.jayway.restassured.response.Response;
+import com.jayway.restassured.response.ValidatableResponse;
+import com.spicerack.framework.initialization.BaseAPI;
+import static com.jayway.restassured.RestAssured.*;
+
+public class GitHubAPITests extends BaseAPI {
+
+	// To test the status code of the get request
+	@Test
+	public void getEmailFields() {
+
+		given().auth().preemptive().basic(userName, password).when().get("/emails").then().contentType(ContentType.JSON)
+				.statusCode(200);
+	}
+
+	// To test the status code of the get request
+	@Test
+	public void getResponseAsString() {
+
+		// GitHub API uses basic authorization (Provide a valid github username
+		// and password here)
+		Response response = given().auth().preemptive().basic(userName, password).when().get("/emails");
+		System.out.println(response.asString());
+
+	}
+
+	// To validate response text
+	@Test
+	public void validateEmailAddress() {
+
+		// GitHub API uses basic authorization (Provide a valid github username
+		// and password here)
+		String emailAddress = given().auth().preemptive().basic(userName, password).when().get("/emails")
+				.then().extract().path("email");
+		System.out.println(emailAddress);
+
+	}
+
+}

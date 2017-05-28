@@ -1,0 +1,18 @@
+package com.restassured.apitests;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.AfterClass;
+import com.spicerack.framework.initialization.BaseAPI;
+
+public class GitHubAPITests extends BaseAPI {
+
+
+
+	@Test
+	public void f() {
+		//
+	}
+
+
+
+}

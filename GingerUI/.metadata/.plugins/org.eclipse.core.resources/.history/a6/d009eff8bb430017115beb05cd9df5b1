@@ -1,0 +1,24 @@
+package com.restassured.apitests;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.AfterClass;
+import com.jayway.restassured.response.Response;
+
+import com.jayway.restassured.RestAssured;
+
+public class GitHubAPITests {
+
+
+
+	@Test
+	public void f() {
+		//
+	}
+
+	@AfterClass
+	public void afterClass() {
+		//
+	}
+
+}

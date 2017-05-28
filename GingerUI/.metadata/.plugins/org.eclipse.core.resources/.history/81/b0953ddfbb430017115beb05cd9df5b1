@@ -1,0 +1,13 @@
+/**
+ * May 28, 2017
+ * @param
+ */
+package com.spicerack.framework.initialization;
+
+/**
+ * @author Nagesh Phaniraj
+ *
+ */
+public class BaseAPI {
+
+}

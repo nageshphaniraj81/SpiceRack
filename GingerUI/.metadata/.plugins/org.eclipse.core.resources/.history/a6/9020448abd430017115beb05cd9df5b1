@@ -1,0 +1,22 @@
+package com.restassured.apitests;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.AfterClass;
+
+import com.jayway.restassured.http.ContentType;
+import com.jayway.restassured.response.Response;
+import com.jayway.restassured.response.ValidatableResponse;
+import com.spicerack.framework.initialization.BaseAPI;
+import static com.jayway.restassured.RestAssured.*;
+
+public class GitHubAPITests extends BaseAPI {
+
+	// To test the status code of the get request
+	@Test
+	public void getEmailFields() {
+
+		given().when().get("/emails").then().contentType(ContentType.JSON).statusCode(200);
+
+	}
+
+}

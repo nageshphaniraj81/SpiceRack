@@ -1,76 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="TestSuite" duration-ms="126469" started-at="2017-05-09T10:48:45Z" finished-at="2017-05-09T10:50:52Z">
+  <suite name="Default suite" duration-ms="10207" started-at="2017-05-28T16:38:44Z" finished-at="2017-05-28T16:38:55Z">
     <groups>
     </groups>
-    <test name="Tests" duration-ms="126469" started-at="2017-05-09T10:48:45Z" finished-at="2017-05-09T10:50:52Z">
-      <class name="com.cucumber.bdd.tests.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.cucumber.bdd.tests.TestRunner@6b09bb57]" name="setUpClass" is-config="true" duration-ms="335" started-at="2017-05-09T16:18:46Z" finished-at="2017-05-09T16:18:46Z">
+    <test name="Default test" duration-ms="10207" started-at="2017-05-28T16:38:44Z" finished-at="2017-05-28T16:38:55Z">
+      <class name="com.restassured.apitests.GitHubAPITests">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.restassured.apitests.GitHubAPITests@63753b6d]" name="beforeClass" is-config="true" duration-ms="468" started-at="2017-05-28T22:08:44Z" finished-at="2017-05-28T22:08:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runTests(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.bdd.tests.TestRunner@6b09bb57]" name="runTests" duration-ms="37038" started-at="2017-05-09T16:18:46Z" data-provider="features" finished-at="2017-05-09T16:19:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ContactUsFeature]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="getAllRepositories()[pri:0, instance:com.restassured.apitests.GitHubAPITests@63753b6d]" name="getAllRepositories" duration-ms="3377" started-at="2017-05-28T22:08:45Z" finished-at="2017-05-28T22:08:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runTests -->
-        <test-method status="PASS" signature="runTests(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.bdd.tests.TestRunner@6b09bb57]" name="runTests" duration-ms="21035" started-at="2017-05-09T16:19:23Z" data-provider="features" finished-at="2017-05-09T16:19:44Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[DressesFeature]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- getAllRepositories -->
+        <test-method status="PASS" signature="getEmailFields()[pri:0, instance:com.restassured.apitests.GitHubAPITests@63753b6d]" name="getEmailFields" duration-ms="1261" started-at="2017-05-28T22:08:48Z" finished-at="2017-05-28T22:08:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runTests -->
-        <test-method status="PASS" signature="runTests(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.bdd.tests.TestRunner@6b09bb57]" name="runTests" duration-ms="19972" started-at="2017-05-09T16:19:44Z" data-provider="features" finished-at="2017-05-09T16:20:04Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[LoginFeature]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- getEmailFields -->
+        <test-method status="PASS" signature="getResponseAsString()[pri:0, instance:com.restassured.apitests.GitHubAPITests@63753b6d]" name="getResponseAsString" duration-ms="1180" started-at="2017-05-28T22:08:49Z" finished-at="2017-05-28T22:08:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runTests -->
-        <test-method status="PASS" signature="runTests(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.bdd.tests.TestRunner@6b09bb57]" name="runTests" duration-ms="23809" started-at="2017-05-09T16:20:04Z" data-provider="features" finished-at="2017-05-09T16:20:28Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[TShirtFeature]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- getResponseAsString -->
+        <test-method status="PASS" signature="validateEmailAddress()[pri:0, instance:com.restassured.apitests.GitHubAPITests@63753b6d]" name="validateEmailAddress" duration-ms="1261" started-at="2017-05-28T22:08:51Z" finished-at="2017-05-28T22:08:52Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runTests -->
-        <test-method status="PASS" signature="runTests(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.bdd.tests.TestRunner@6b09bb57]" name="runTests" duration-ms="24050" started-at="2017-05-09T16:20:28Z" data-provider="features" finished-at="2017-05-09T16:20:52Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[WomenFeature]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- validateEmailAddress -->
+        <test-method status="PASS" signature="validateSpecificRepo()[pri:0, instance:com.restassured.apitests.GitHubAPITests@63753b6d]" name="validateSpecificRepo" duration-ms="1392" started-at="2017-05-28T22:08:52Z" finished-at="2017-05-28T22:08:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runTests -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.cucumber.bdd.tests.TestRunner@6b09bb57]" name="afterClass" is-config="true" duration-ms="93" started-at="2017-05-09T16:20:52Z" finished-at="2017-05-09T16:20:52Z">
+        </test-method> <!-- validateSpecificRepo -->
+        <test-method status="PASS" signature="validateVisibility()[pri:0, instance:com.restassured.apitests.GitHubAPITests@63753b6d]" name="validateVisibility" duration-ms="1228" started-at="2017-05-28T22:08:53Z" finished-at="2017-05-28T22:08:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateVisibility -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.restassured.apitests.GitHubAPITests@63753b6d]" name="afterClass" is-config="true" duration-ms="1" started-at="2017-05-28T22:08:54Z" finished-at="2017-05-28T22:08:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.cucumber.bdd.tests.TestRunner -->
-    </test> <!-- Tests -->
-  </suite> <!-- TestSuite -->
+      </class> <!-- com.restassured.apitests.GitHubAPITests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

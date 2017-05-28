@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
-  <test name="Tests(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.cucumber.bdd.tests.TestRunner">
+      <class name="com.restassured.apitests.GitHubAPITests">
         <methods>
-          <include name="setUpClass"/>
-          <include name="runTests" invocation-numbers="1 3"/>
+          <include name="validateEmailAddress"/>
           <include name="afterClass"/>
+          <include name="beforeClass"/>
         </methods>
-      </class> <!-- com.cucumber.bdd.tests.TestRunner -->
+      </class> <!-- com.restassured.apitests.GitHubAPITests -->
     </classes>
-  </test> <!-- Tests(failed) -->
-</suite> <!-- Failed suite [TestSuite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

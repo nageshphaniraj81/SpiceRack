@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.cucumber.bdd.tests.TestRunner">
+      <class name="com.restassured.apitests.GitHubAPITests">
         <methods>
-          <include name="setUpClass"/>
-          <include name="runTests"/>
+          <include name="validateEmailAddress"/>
           <include name="afterClass"/>
+          <include name="beforeClass"/>
         </methods>
-      </class> <!-- com.cucumber.bdd.tests.TestRunner -->
+      </class> <!-- com.restassured.apitests.GitHubAPITests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
