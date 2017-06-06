@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.junit.Assert"/>
-<fullyQualifiedTypeName name="com.spicerack.testcases.SampleShoppingTest"/>
-<fullyQualifiedTypeName name="cucumber.api.java.Before"/>
-<fullyQualifiedTypeName name="cucumber.api.java.After"/>
-<fullyQualifiedTypeName name="com.spicerack.framework.base.Base"/>
-<fullyQualifiedTypeName name="java.util.Hashtable"/>
 <fullyQualifiedTypeName name="java.util.Dictionary"/>
 <fullyQualifiedTypeName name="cucumber.api.DataTable"/>
 <fullyQualifiedTypeName name="com.spicerack.framework.utilities.CucumberUtil"/>
@@ -60,4 +54,10 @@
 <fullyQualifiedTypeName name="org.openqa.selenium.Alert"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.security.Credentials"/>
 <fullyQualifiedTypeName name="com.spicerack.framework.initialization.DriverContext"/>
+<fullyQualifiedTypeName name="com.spicerack.framework.initialization.BaseAPI"/>
+<fullyQualifiedTypeName name="com.jayway.restassured.http.ContentType"/>
+<fullyQualifiedTypeName name="com.jayway.restassured.response.ValidatableResponse"/>
+<fullyQualifiedTypeName name="com.jayway.restassured.response.Response"/>
+<fullyQualifiedTypeName name="org.testng.Assert"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
