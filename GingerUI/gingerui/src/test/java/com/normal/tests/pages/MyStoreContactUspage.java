@@ -3,16 +3,12 @@
  */
 package com.normal.tests.pages;
 
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
-
 import com.spicerack.framework.controls.elements.Button;
-import com.spicerack.framework.controls.elements.ButtonBase;
 import com.spicerack.framework.controls.elements.Dropdown;
-import com.spicerack.framework.controls.elements.DropdownBase;
+import com.spicerack.framework.controls.elements.HyperLink;
 import com.spicerack.framework.controls.elements.TextBox;
-import com.spicerack.framework.controls.elements.TextBoxBase;
 import com.spicerack.framework.frameworkutilities.JavaScriptUtil;
 import com.spicerack.framework.initialization.BasePage;
 
@@ -37,31 +33,31 @@ public class MyStoreContactUspage extends BasePage{
 	
 	/** The txt contact us header. */
 	@FindBy(how = How.XPATH, using = "//div[@id='center_column']/h1[@class='page-heading bottom-indent']")
-	public WebElement txtContactUsHeader;
+	public TextBox txtContactUsHeader;
 	
 	/** The lnk contact us. */
 	@FindBy(how = How.LINK_TEXT, using = "Contact us")
-	public WebElement lnkContactUs;
+	public HyperLink lnkContactUs;
 	
 	/** The select contact. */
 	@FindBy(how = How.ID, using = "id_contact")
-	public WebElement selectContact;
+	public Dropdown selectContact;
 	
 	/** The txt email. */
 	@FindBy(how = How.ID, using = "email")
-	public WebElement txtEmail;
+	public TextBox txtEmail;
 	
 	/** The txt message. */
 	@FindBy(how = How.ID, using = "message")
-	public WebElement txtMessage;
+	public TextBox txtMessage;
 	
 	/** The btn submit. */
 	@FindBy(how = How.ID_OR_NAME, using = "submitMessage")
-	public WebElement btnSubmit;
+	public Button btnSubmit;
 	
 	/** The txt successmessage. */
 	@FindBy(how = How.XPATH, using = "//div[@id='center_column']/p[@class='alert alert-success']")
-	public WebElement txtSuccessmessage;
+	public TextBox txtSuccessmessage;
 	
 	/**
 	 * Checks if is header message displayed.
@@ -79,8 +75,7 @@ public class MyStoreContactUspage extends BasePage{
 	 *             the interrupted exception
 	 */
 	public void selectCustomerService() throws InterruptedException{
-		Dropdown contactDropdown = new DropdownBase(selectContact);
-		contactDropdown.selectItemByIndex(1);
+		selectContact.selectItemByIndex(1);
 		Thread.sleep(2000);
 	}
 	
@@ -92,8 +87,7 @@ public class MyStoreContactUspage extends BasePage{
 	 * @return true, if successful
 	 */
 	public boolean checkSelectedOption(String optionToCheck){
-		Dropdown contactDropdown = new DropdownBase(selectContact);
-		if(contactDropdown.getSelectedOptionValue().equals(optionToCheck))
+		if(selectContact.getSelectedOptionValue().equals(optionToCheck))
 		return true;
 		else
 	    return false;
@@ -105,8 +99,7 @@ public class MyStoreContactUspage extends BasePage{
 	 * @return the selected option text
 	 */
 	public String getSelectedOptionText(){
-		Dropdown contactDropdown = new DropdownBase(selectContact);
-		return contactDropdown.getSelectedOptionValue();
+		return selectContact.getSelectedOptionValue();
 	}
 	
 	/**
@@ -118,9 +111,8 @@ public class MyStoreContactUspage extends BasePage{
 	 *             the interrupted exception
 	 */
 	public void enterEmail(String strEmail) throws InterruptedException{
-		TextBox email = new TextBoxBase(txtEmail);
-		js.ScrollToViewElement(email);
-		email.enterText(strEmail);
+		js.ScrollToViewElement(txtEmail);
+		txtEmail.enterText(strEmail);
 		Thread.sleep(2000);
 	}
 	
@@ -133,9 +125,8 @@ public class MyStoreContactUspage extends BasePage{
 	 *             the interrupted exception
 	 */
 	public void enterMessage(String strMessage) throws InterruptedException{
-		TextBox message = new TextBoxBase(txtMessage);
 		js.ScrollToViewElement(txtMessage);
-		message.enterText(strMessage);
+		txtMessage.enterText(strMessage);
 		Thread.sleep(2000);
 	}
 	
@@ -146,9 +137,8 @@ public class MyStoreContactUspage extends BasePage{
 	 *             the interrupted exception
 	 */
 	public void clickSubmit() throws InterruptedException{
-		Button submit = new ButtonBase(btnSubmit);
-		js.ScrollToViewElement(submit);
-		submit.click();
+		js.ScrollToViewElement(btnSubmit);
+		btnSubmit.click();
 		Thread.sleep(2000);
 	}
 	

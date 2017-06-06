@@ -8,6 +8,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
+import com.spicerack.framework.controls.elements.Button;
+import com.spicerack.framework.controls.elements.TextBox;
 import com.spicerack.framework.frameworkutilities.SyncronizationHelper;
 import com.spicerack.framework.initialization.BasePage;
 
@@ -28,11 +30,11 @@ public class MyStoreTShirtPage extends BasePage{
 
 	/** The txt title. */
 	@FindBy(how = How.XPATH, using = "//div[@id='center_column']/h1/span[contains(@class,'cat-name') and contains(text(),'T-shirts')]")
-	public WebElement txtTitle;
+	public TextBox txtTitle;
 	
 	/** The tab T shirts. */
 	@FindBy(how = How.XPATH, using = "//div[@id='block_top_menu']/ul/li/*[contains(@title,'T-shirts')]")
-	public WebElement tabTShirts;
+	public Button tabTShirts;
 	
 	/**
 	 * Switch to T shirts tab.

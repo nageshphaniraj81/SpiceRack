@@ -12,14 +12,6 @@ import org.openqa.selenium.support.PageFactory;
 public class BasePage extends Base {
 
 	/**
-	 * Instantiates a new base page.
-	 */
-	public BasePage() {
-		PageFactory.initElements(DriverContext.Driver, this);
-
-	}
-
-	/**
 	 * As.
 	 *
 	 * @param <TPage>
