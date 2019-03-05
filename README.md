@@ -30,6 +30,5 @@ Example : C:\Automation\SpiceRack\GingerUI\gingerui
 mvn clean install -DSkipTests
 
 Once the Build Passes with 0 Errors, you are good to start.
-For information regarding Framework structure and usage, please refer the link:
-http://www.techiebeats.com/spicerack.html
+
 
