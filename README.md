@@ -1,4 +1,4 @@
-# SpiceRack
+# SpiceRack 2.0
 Open Source Test Automation Framework for all
 
 Setup Spicerack:
